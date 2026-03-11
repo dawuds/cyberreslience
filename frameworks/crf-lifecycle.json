@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "framework": {
+    "name": "Cyber Resilience Framework (CRF)",
+    "source": "BNM RMiT Nov 2025, Paragraph 11.1",
+    "phases": [
+      {
+        "id": "identify",
+        "name": "Identify",
+        "description": "Understand cyber risks to systems, assets, data, and capabilities",
+        "domains": ["cyber-risk-governance", "ncii-compliance"],
+        "keyActivities": ["Cyber risk assessment", "Asset inventory", "Threat landscape analysis", "NCII compliance", "Risk appetite definition"]
+      },
+      {
+        "id": "protect",
+        "name": "Protect",
+        "description": "Implement safeguards to ensure delivery of critical services",
+        "domains": ["network-security", "data-security", "api-security", "digital-services-security", "security-awareness"],
+        "keyActivities": ["Network segmentation", "Data encryption", "DLP deployment", "API security controls", "Digital service security", "Staff awareness training"]
+      },
+      {
+        "id": "detect",
+        "name": "Detect",
+        "description": "Develop and implement activities to identify cybersecurity events",
+        "domains": ["soc-operations", "vapt", "cyber-operations"],
+        "keyActivities": ["SOC monitoring", "SIEM correlation", "Threat hunting", "Vulnerability assessment", "Penetration testing", "Threat intelligence", "Anomaly detection"]
+      },
+      {
+        "id": "respond",
+        "name": "Respond",
+        "description": "Develop and implement activities to take action on detected events",
+        "domains": ["incident-response", "cyber-insurance-reporting"],
+        "keyActivities": ["CIRP activation", "CERT mobilisation", "Incident containment", "Forensic analysis", "Crisis communication", "Regulatory notification", "Cyber drill exercises"]
+      },
+      {
+        "id": "recover",
+        "name": "Recover",
+        "description": "Develop and implement activities to restore capabilities impaired by cyber events",
+        "domains": ["incident-response", "cyber-insurance-reporting"],
+        "keyActivities": ["Service restoration", "Post-incident review", "Lessons learned", "Insurance claims", "Threat intelligence sharing", "Long-term risk mitigation"]
+      }
+    ]
+  }
+}

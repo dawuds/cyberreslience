@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "categories": {
+    "clauses": {
+      "name": "Regulatory Clauses",
+      "count": 2,
+      "items": [
+        { "slug": "sections", "name": "Section Structure", "format": "json" },
+        { "slug": "index", "name": "Full Clause Index", "format": "json" }
+      ]
+    },
+    "controls": {
+      "name": "Control Framework",
+      "count": 2,
+      "items": [
+        { "slug": "domains", "name": "Control Domains", "format": "json" },
+        { "slug": "library", "name": "Control Library", "format": "json" }
+      ]
+    },
+    "requirements": {
+      "name": "Requirements",
+      "count": 1,
+      "items": [
+        { "slug": "index", "name": "Requirements Index", "format": "json" }
+      ]
+    },
+    "evidence": {
+      "name": "Evidence Requirements",
+      "count": 1,
+      "items": [
+        { "slug": "index", "name": "Evidence Index", "format": "json" }
+      ]
+    },
+    "cross-references": {
+      "name": "Cross-References",
+      "count": 2,
+      "items": [
+        { "slug": "frameworks", "name": "Framework Cross-References", "format": "json" },
+        { "slug": "clause-map", "name": "Clause-Control Bidirectional Map", "format": "json" }
+      ]
+    },
+    "frameworks": {
+      "name": "Frameworks",
+      "count": 1,
+      "items": [
+        { "slug": "crf-lifecycle", "name": "CRF Lifecycle (IPDRR)", "format": "json" }
+      ]
+    },
+    "maturity": {
+      "name": "Maturity Model",
+      "count": 1,
+      "items": [
+        { "slug": "maturity-model", "name": "Cyber Resilience Maturity Model", "format": "json" }
+      ]
+    },
+    "risk-management": {
+      "name": "Risk Management",
+      "count": 1,
+      "items": [
+        { "slug": "risk-register", "name": "Cyber Risk Register Template", "format": "json" }
+      ]
+    },
+    "templates": {
+      "name": "Document Templates",
+      "count": 6,
+      "items": [
+        { "slug": "crf-policy", "name": "Cyber Resilience Framework Policy", "format": "md" },
+        { "slug": "cirp", "name": "Cyber Incident Response Plan", "format": "md" },
+        { "slug": "soc-charter", "name": "SOC Charter", "format": "md" },
+        { "slug": "vapt-sop", "name": "VAPT Standard Operating Procedures", "format": "md" },
+        { "slug": "cyber-drill-plan", "name": "Cyber Drill Exercise Plan", "format": "md" },
+        { "slug": "threat-intel-report", "name": "Monthly Threat Assessment Report", "format": "md" }
+      ]
+    }
+  }
+}

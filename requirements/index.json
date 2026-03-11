@@ -1,0 +1,1113 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "clauseRef": "11.1",
+      "type": "governance",
+      "title": "Establish Cyber Resilience Framework",
+      "description": "Establish and maintain a CRF covering the five IPDRR phases aligned with regulatory expectations and international standards.",
+      "controlRef": ["CRC-001"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-002",
+      "clauseRef": "11.1",
+      "type": "governance",
+      "title": "CRF Scope and Applicability",
+      "description": "Define CRF scope covering all technology assets, digital services, third-party connections, and cloud environments.",
+      "controlRef": ["CRC-001"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-003",
+      "clauseRef": "11.1",
+      "type": "governance",
+      "title": "CRF Annual Review",
+      "description": "Conduct annual review of the CRF to ensure alignment with evolving threat landscape and business changes.",
+      "controlRef": ["CRC-001", "CRC-004"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-004",
+      "clauseRef": "11.2",
+      "type": "governance",
+      "title": "Dedicated Cyber Risk Management Function",
+      "description": "Establish a dedicated cyber risk management function with adequate staffing, skills, budget, and organisational authority.",
+      "controlRef": ["CRC-002"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-005",
+      "clauseRef": "11.2",
+      "type": "governance",
+      "title": "Cyber Risk Function Resourcing",
+      "description": "Allocate sufficient budget and human resources to the cyber risk function commensurate with the institution's risk profile.",
+      "controlRef": ["CRC-002"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-006",
+      "clauseRef": "11.2",
+      "type": "governance",
+      "title": "CISO Appointment and Reporting Line",
+      "description": "Appoint a CISO with direct reporting line to senior management and regular access to board-level discussions.",
+      "controlRef": ["CRC-003"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-007",
+      "clauseRef": "11.3",
+      "type": "governance",
+      "title": "Board Cyber Risk Reporting",
+      "description": "Provide regular cyber risk reports to the board covering risk posture, threat landscape, incidents, and improvement initiatives.",
+      "controlRef": ["CRC-003", "CRC-006"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-008",
+      "clauseRef": "11.3",
+      "type": "governance",
+      "title": "Cyber Risk Appetite Statement",
+      "description": "Define and maintain a cyber risk appetite statement approved by the board and reviewed at least annually.",
+      "controlRef": ["CRC-004"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-009",
+      "clauseRef": "11.3",
+      "type": "governance",
+      "title": "Threat Escalation Matrix",
+      "description": "Maintain an escalation matrix defining severity levels, notification timelines, and escalation paths for cyber threats.",
+      "controlRef": ["CRC-005"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-010",
+      "clauseRef": "11.3",
+      "type": "governance",
+      "title": "Independent Cyber Risk Assessment",
+      "description": "Conduct periodic independent assessments of the institution's cyber risk posture by qualified external parties.",
+      "controlRef": ["CRC-006"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-011",
+      "clauseRef": "11.4",
+      "type": "governance",
+      "title": "NCII Asset Inventory",
+      "description": "Maintain a complete inventory of all assets designated as National Critical Information Infrastructure with classification and dependency mapping.",
+      "controlRef": ["CRC-007"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-012",
+      "clauseRef": "11.4",
+      "type": "governance",
+      "title": "NACSA Directive Compliance",
+      "description": "Comply with all applicable NACSA directives and standards for NCII-designated systems and services.",
+      "controlRef": ["CRC-008"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-013",
+      "clauseRef": "11.4",
+      "type": "operational",
+      "title": "NCII Additional Security Measures",
+      "description": "Implement additional security measures as directed by NACSA or BNM with documented impact assessments and implementation plans.",
+      "controlRef": ["CRC-009"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-014",
+      "clauseRef": "App5-A1",
+      "type": "technical",
+      "title": "Network Zone Definition and Segmentation",
+      "description": "Define and implement network security zones with appropriate segmentation controls between DMZ, internal, restricted, and management networks.",
+      "controlRef": ["CRC-010"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-015",
+      "clauseRef": "App5-A1",
+      "type": "technical",
+      "title": "Network Architecture Documentation",
+      "description": "Maintain up-to-date network architecture diagrams showing all zones, interconnections, and security controls.",
+      "controlRef": ["CRC-010"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-016",
+      "clauseRef": "App5-A2",
+      "type": "technical",
+      "title": "Server-to-Server Encrypted Communication",
+      "description": "Encrypt all server-to-server communications using TLS 1.2 or higher with mutual authentication for sensitive data flows.",
+      "controlRef": ["CRC-011"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-017",
+      "clauseRef": "App5-A2",
+      "type": "technical",
+      "title": "Secure Remote Access with MFA",
+      "description": "Implement secure remote access using VPN with multi-factor authentication and endpoint compliance verification.",
+      "controlRef": ["CRC-012"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-018",
+      "clauseRef": "App5-A3",
+      "type": "technical",
+      "title": "Firewall Deployment at Critical Segments",
+      "description": "Deploy next-generation firewalls at all critical network segments with application-aware rule sets and regular review.",
+      "controlRef": ["CRC-013"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-019",
+      "clauseRef": "App5-A3",
+      "type": "technical",
+      "title": "Firewall Rule Base Review",
+      "description": "Review firewall rule bases at least quarterly to remove unused rules, validate business justification, and ensure least privilege.",
+      "controlRef": ["CRC-013"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-020",
+      "clauseRef": "App5-A3",
+      "type": "technical",
+      "title": "IPS Deployment and Monitoring",
+      "description": "Deploy IPS at strategic network points with updated signatures and 24x7 alert monitoring.",
+      "controlRef": ["CRC-014"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-021",
+      "clauseRef": "App5-A4",
+      "type": "technical",
+      "title": "Web Content Filtering",
+      "description": "Implement web proxy with content filtering to block access to malicious websites and enforce acceptable use policy.",
+      "controlRef": ["CRC-015"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-022",
+      "clauseRef": "App5-A4",
+      "type": "technical",
+      "title": "Email Security Gateway",
+      "description": "Deploy email security gateway with anti-spam, anti-malware, attachment sandboxing, and phishing protection capabilities.",
+      "controlRef": ["CRC-015"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-023",
+      "clauseRef": "App5-A4",
+      "type": "technical",
+      "title": "Endpoint Detection and Response",
+      "description": "Deploy EDR solution on all endpoints with centralised management, real-time monitoring, and automated response capabilities.",
+      "controlRef": ["CRC-016"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-024",
+      "clauseRef": "App5-A5",
+      "type": "technical",
+      "title": "Full Disk Encryption on Endpoints",
+      "description": "Implement full disk encryption on all endpoint devices with centralised key management and compliance monitoring.",
+      "controlRef": ["CRC-017"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-025",
+      "clauseRef": "App5-A5",
+      "type": "technical",
+      "title": "APT Detection Solution",
+      "description": "Deploy APT detection and prevention solutions including network sandboxing and advanced malware analysis capabilities.",
+      "controlRef": ["CRC-018"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-026",
+      "clauseRef": "App5-A6",
+      "type": "technical",
+      "title": "Network Packet Capture Capability",
+      "description": "Implement packet capture capability at critical network points with adequate retention for forensic investigation.",
+      "controlRef": ["CRC-019"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-027",
+      "clauseRef": "App5-A6",
+      "type": "technical",
+      "title": "NTP Synchronisation",
+      "description": "Ensure NTP synchronisation across all network devices and servers with redundant time sources for forensic accuracy.",
+      "controlRef": ["CRC-019"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-028",
+      "clauseRef": "App5-A6",
+      "type": "technical",
+      "title": "DDoS Protection Measures",
+      "description": "Implement multi-layered DDoS protection including on-premise mitigation, ISP-level protection, and cloud scrubbing services.",
+      "controlRef": ["CRC-020"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-029",
+      "clauseRef": "App5-B1",
+      "type": "technical",
+      "title": "PII Encryption at Rest",
+      "description": "Encrypt all PII and sensitive customer data at rest using AES-256 or equivalent with proper key management.",
+      "controlRef": ["CRC-021"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-030",
+      "clauseRef": "App5-B1",
+      "type": "technical",
+      "title": "Encryption Key Management",
+      "description": "Implement robust encryption key management including generation, storage, rotation, and destruction procedures using HSM where appropriate.",
+      "controlRef": ["CRC-021"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-031",
+      "clauseRef": "App5-B2",
+      "type": "technical",
+      "title": "DLP Technology Deployment",
+      "description": "Deploy DLP technology monitoring email, web, endpoint, and cloud channels for unauthorised sensitive data transmission.",
+      "controlRef": ["CRC-022"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-032",
+      "clauseRef": "App5-B2",
+      "type": "operational",
+      "title": "DLP Policy for Data In-Use",
+      "description": "Configure DLP policies to monitor and control sensitive data in use on endpoints including clipboard, printing, and screen capture.",
+      "controlRef": ["CRC-023"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-033",
+      "clauseRef": "App5-B3",
+      "type": "operational",
+      "title": "DLP Policy for Data In-Motion",
+      "description": "Configure DLP policies to detect and prevent unauthorised transmission of sensitive data via email, web, and removable media.",
+      "controlRef": ["CRC-023"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-034",
+      "clauseRef": "App5-B3",
+      "type": "operational",
+      "title": "DLP Policy for Data At-Rest",
+      "description": "Implement DLP scanning of data repositories to identify sensitive data stored in unauthorised locations.",
+      "controlRef": ["CRC-023"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-035",
+      "clauseRef": "App5-B3",
+      "type": "operational",
+      "title": "Secure Data Removal and Disposal",
+      "description": "Implement certified data destruction procedures for decommissioned media with chain of custody and certificates of destruction.",
+      "controlRef": ["CRC-024"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-036",
+      "clauseRef": "App5-B4",
+      "type": "governance",
+      "title": "Data Classification Scheme",
+      "description": "Establish and enforce a data classification scheme with defined sensitivity levels, handling requirements, and labelling standards.",
+      "controlRef": ["CRC-025"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-037",
+      "clauseRef": "App5-B4",
+      "type": "operational",
+      "title": "Sensitive Data Inventory",
+      "description": "Maintain a comprehensive inventory of sensitive data assets including location, ownership, access permissions, and data flow mapping.",
+      "controlRef": ["CRC-026"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-038",
+      "clauseRef": "App5-B5",
+      "type": "governance",
+      "title": "Third-Party Data Protection Controls",
+      "description": "Implement contractual and technical controls for third-party handling of sensitive data with audit rights and compliance monitoring.",
+      "controlRef": ["CRC-027"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-039",
+      "clauseRef": "App5-B5",
+      "type": "technical",
+      "title": "Confidential Information Barrier Controls",
+      "description": "Implement logical access controls and monitoring to enforce confidential information barriers between business units.",
+      "controlRef": ["CRC-028"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-040",
+      "clauseRef": "11.9",
+      "type": "operational",
+      "title": "SOC Establishment",
+      "description": "Establish a Security Operations Centre with defined mandate, staffing, technology stack, and operational procedures.",
+      "controlRef": ["CRC-029"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-041",
+      "clauseRef": "11.9",
+      "type": "operational",
+      "title": "SOC 24x7 Operations",
+      "description": "Ensure SOC operates on a 24x7 basis with adequate staffing for continuous monitoring and incident response.",
+      "controlRef": ["CRC-029", "CRC-038"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-042",
+      "clauseRef": "App5-C1",
+      "type": "technical",
+      "title": "SIEM Deployment",
+      "description": "Deploy SIEM platform with comprehensive log ingestion from critical systems, correlation rules, and automated alerting.",
+      "controlRef": ["CRC-030"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-043",
+      "clauseRef": "App5-C1",
+      "type": "technical",
+      "title": "Log Source Coverage",
+      "description": "Ensure SIEM log coverage includes all critical infrastructure, applications, cloud services, and security tools.",
+      "controlRef": ["CRC-030"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-044",
+      "clauseRef": "App5-C1",
+      "type": "operational",
+      "title": "Log Retention Compliance",
+      "description": "Maintain security log retention meeting regulatory requirements with integrity protection and search capability.",
+      "controlRef": ["CRC-030"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-045",
+      "clauseRef": "App5-C2",
+      "type": "operational",
+      "title": "Incident Triage and Classification",
+      "description": "Establish SOC incident triage process with severity classification, SLA-based response times, and escalation procedures.",
+      "controlRef": ["CRC-031"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-046",
+      "clauseRef": "App5-C2",
+      "type": "operational",
+      "title": "Vulnerability Management Programme",
+      "description": "Maintain continuous vulnerability management programme with scanning, risk-based prioritisation, remediation tracking, and SLA compliance.",
+      "controlRef": ["CRC-032"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-047",
+      "clauseRef": "App5-C3",
+      "type": "operational",
+      "title": "Proactive Threat Hunting",
+      "description": "Conduct regular threat hunting campaigns to identify advanced threats evading automated detection controls.",
+      "controlRef": ["CRC-033"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-048",
+      "clauseRef": "App5-C3",
+      "type": "operational",
+      "title": "Digital Forensic Readiness",
+      "description": "Maintain digital forensic investigation capability with trained personnel, validated tools, and evidence handling procedures.",
+      "controlRef": ["CRC-034"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-049",
+      "clauseRef": "App5-C4",
+      "type": "operational",
+      "title": "Threat Intelligence Feed Integration",
+      "description": "Subscribe to and operationalise threat intelligence feeds with automated IoC ingestion into security detection tools.",
+      "controlRef": ["CRC-035"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-050",
+      "clauseRef": "App5-C4",
+      "type": "operational",
+      "title": "SOC Playbook Maintenance",
+      "description": "Develop and maintain SOC response playbooks covering common attack scenarios with regular testing and updates.",
+      "controlRef": ["CRC-036"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-051",
+      "clauseRef": "App5-C5",
+      "type": "reporting",
+      "title": "Monthly SOC Performance Reporting",
+      "description": "Produce monthly SOC reports covering detection metrics, incident statistics, threat trends, and improvement actions.",
+      "controlRef": ["CRC-037"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-052",
+      "clauseRef": "App5-C5",
+      "type": "operational",
+      "title": "SOC Physical Security",
+      "description": "Ensure SOC facility has adequate physical security including access controls, surveillance, and environmental protections.",
+      "controlRef": ["CRC-038"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-053",
+      "clauseRef": "App5-C5",
+      "type": "technical",
+      "title": "Holistic Monitoring View",
+      "description": "Ensure SOC maintains visibility across all environments including on-premise, cloud, hybrid, and third-party hosted systems.",
+      "controlRef": ["CRC-038"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-054",
+      "clauseRef": "11.6",
+      "type": "governance",
+      "title": "VAPT Standard Operating Procedures",
+      "description": "Establish comprehensive VAPT SOPs covering scope, methodology, tools, reporting, and remediation tracking.",
+      "controlRef": ["CRC-039"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-055",
+      "clauseRef": "App5-D2",
+      "type": "operational",
+      "title": "Quarterly Vulnerability Assessment",
+      "description": "Conduct quarterly vulnerability assessments of all in-scope infrastructure and applications with authenticated scanning.",
+      "controlRef": ["CRC-040"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-056",
+      "clauseRef": "App5-D2",
+      "type": "operational",
+      "title": "Vulnerability Remediation SLAs",
+      "description": "Define and enforce vulnerability remediation SLAs based on severity: critical within 7 days, high within 30 days, medium within 90 days.",
+      "controlRef": ["CRC-040", "CRC-032"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-057",
+      "clauseRef": "App5-D3",
+      "type": "operational",
+      "title": "Annual External Penetration Test",
+      "description": "Conduct annual penetration testing by qualified external testers covering critical systems with realistic attack simulation.",
+      "controlRef": ["CRC-041"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-058",
+      "clauseRef": "App5-D3",
+      "type": "operational",
+      "title": "Penetration Tester Qualifications",
+      "description": "Ensure penetration testers hold recognised certifications (CREST, OSCP, GPEN) and demonstrate relevant sector experience.",
+      "controlRef": ["CRC-041"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-059",
+      "clauseRef": "App5-D4",
+      "type": "operational",
+      "title": "Pre-Launch Security Testing",
+      "description": "Conduct penetration testing on all new applications and significant changes before production deployment.",
+      "controlRef": ["CRC-042"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-060",
+      "clauseRef": "App5-D4",
+      "type": "reporting",
+      "title": "Critical Finding Escalation",
+      "description": "Escalate critical penetration test findings to CISO within 24 hours with remediation plan and timeline.",
+      "controlRef": ["CRC-043"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-061",
+      "clauseRef": "App5-D5",
+      "type": "operational",
+      "title": "Compromise Assessment",
+      "description": "Conduct periodic compromise assessments to identify evidence of past or ongoing breaches in the environment.",
+      "controlRef": ["CRC-044"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-062",
+      "clauseRef": "App5-D6",
+      "type": "operational",
+      "title": "Crowdsourced Security Testing",
+      "description": "Implement vulnerability disclosure policy and consider crowdsourced security testing for public-facing systems.",
+      "controlRef": ["CRC-045"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-063",
+      "clauseRef": "App5-E1",
+      "type": "operational",
+      "title": "API Inventory Maintenance",
+      "description": "Maintain a comprehensive inventory of all APIs with classification by sensitivity, criticality, and data exposure.",
+      "controlRef": ["CRC-046"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-064",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Availability and Resilience",
+      "description": "Implement API availability controls including load balancing, auto-scaling, rate limiting, and disaster recovery provisions.",
+      "controlRef": ["CRC-047"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-065",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "Secure API Development Practices",
+      "description": "Enforce secure coding practices for API development addressing OWASP API Top 10 with SAST/DAST integration.",
+      "controlRef": ["CRC-048"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-066",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Transport Encryption",
+      "description": "Enforce TLS 1.2+ for all API communications with mTLS for internal API traffic handling sensitive data.",
+      "controlRef": ["CRC-049"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-067",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Key and Certificate Management",
+      "description": "Implement centralised API key and certificate management with automated rotation and lifecycle tracking.",
+      "controlRef": ["CRC-049"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-068",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Brute Force Protection",
+      "description": "Implement anti-brute-force measures on API authentication endpoints including rate limiting, lockout, and anomaly detection.",
+      "controlRef": ["CRC-050"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-069",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Authentication Protocols",
+      "description": "Implement OAuth 2.0 and OpenID Connect for API authentication with scope-based authorisation and token lifecycle management.",
+      "controlRef": ["CRC-051"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-070",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Gateway Deployment",
+      "description": "Deploy API gateway for centralised policy enforcement, traffic management, and security control across all API traffic.",
+      "controlRef": ["CRC-052"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-071",
+      "clauseRef": "App5-E1",
+      "type": "operational",
+      "title": "API Security Assessment",
+      "description": "Conduct periodic API security assessments including penetration testing, configuration review, and compliance verification.",
+      "controlRef": ["CRC-053"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-072",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Traffic Monitoring",
+      "description": "Implement continuous API traffic monitoring with anomaly detection, abuse pattern identification, and SIEM integration.",
+      "controlRef": ["CRC-054"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-073",
+      "clauseRef": "App5-E1",
+      "type": "technical",
+      "title": "API Token Revocation",
+      "description": "Implement robust token revocation mechanisms with emergency mass revocation capability for incident response.",
+      "controlRef": ["CRC-055"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-074",
+      "clauseRef": "11.8",
+      "type": "technical",
+      "title": "Kill Chain Defence Mapping",
+      "description": "Map defensive controls to each phase of the cyber attack kill chain to ensure detection and disruption at every stage.",
+      "controlRef": ["CRC-056"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-075",
+      "clauseRef": "11.8",
+      "type": "technical",
+      "title": "MITRE ATT&CK Coverage Assessment",
+      "description": "Assess detection coverage against MITRE ATT&CK framework and address identified gaps in defensive capabilities.",
+      "controlRef": ["CRC-056"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-076",
+      "clauseRef": "11.10",
+      "type": "technical",
+      "title": "Continuous Security Monitoring",
+      "description": "Implement continuous monitoring across all technology assets and environments with real-time alerting and response.",
+      "controlRef": ["CRC-057"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-077",
+      "clauseRef": "11.10",
+      "type": "operational",
+      "title": "Monitoring Use Case Library",
+      "description": "Develop and maintain a library of monitoring use cases covering critical threat scenarios and compliance requirements.",
+      "controlRef": ["CRC-057"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-078",
+      "clauseRef": "11.10",
+      "type": "operational",
+      "title": "Cyber Threat Intelligence Programme",
+      "description": "Establish a structured CTI programme producing actionable intelligence for defensive operations and strategic decisions.",
+      "controlRef": ["CRC-058"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-079",
+      "clauseRef": "11.11",
+      "type": "operational",
+      "title": "Threat Intelligence Sharing Participation",
+      "description": "Actively participate in threat intelligence sharing initiatives with sector peers, regulators, and national CERTs.",
+      "controlRef": ["CRC-058"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-080",
+      "clauseRef": "11.8",
+      "type": "technical",
+      "title": "Anomalous Activity Detection",
+      "description": "Implement behavioural analytics and anomaly detection for networks, systems, and user activities with defined response procedures.",
+      "controlRef": ["CRC-059"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-081",
+      "clauseRef": "11.11",
+      "type": "operational",
+      "title": "Red Team Exercise Programme",
+      "description": "Conduct red team exercises simulating realistic adversary tactics to validate defensive control effectiveness.",
+      "controlRef": ["CRC-060"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-082",
+      "clauseRef": "11.12",
+      "type": "governance",
+      "title": "Cyber Crisis Management Framework",
+      "description": "Establish a cyber crisis management framework with governance structures, decision authorities, and communication protocols.",
+      "controlRef": ["CRC-061"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-083",
+      "clauseRef": "11.12",
+      "type": "governance",
+      "title": "Crisis Management Team Composition",
+      "description": "Define crisis management team with representatives from IT, security, legal, communications, business, and executive leadership.",
+      "controlRef": ["CRC-061"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-084",
+      "clauseRef": "11.13",
+      "type": "operational",
+      "title": "CIRP Establishment and Maintenance",
+      "description": "Establish and maintain a comprehensive Cyber Incident Response Plan with defined phases, roles, and procedures.",
+      "controlRef": ["CRC-062"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-085",
+      "clauseRef": "11.13",
+      "type": "operational",
+      "title": "Incident Classification and Severity Scheme",
+      "description": "Define incident classification scheme with severity levels, response priorities, and notification requirements.",
+      "controlRef": ["CRC-062"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-086",
+      "clauseRef": "11.14",
+      "type": "operational",
+      "title": "CERT Establishment and Readiness",
+      "description": "Establish internal CERT with trained personnel, coordination procedures with MyCERT and sector CERT, and 24x7 readiness.",
+      "controlRef": ["CRC-063"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-087",
+      "clauseRef": "11.14",
+      "type": "technical",
+      "title": "Out-of-Band Communication Channels",
+      "description": "Establish and regularly test out-of-band communication channels for use during incidents when primary systems are compromised.",
+      "controlRef": ["CRC-064"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-088",
+      "clauseRef": "11.15",
+      "type": "operational",
+      "title": "Annual Cyber Drill Execution",
+      "description": "Conduct at least one comprehensive annual cyber drill with realistic scenarios testing response capabilities across the organisation.",
+      "controlRef": ["CRC-065"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-089",
+      "clauseRef": "11.15",
+      "type": "operational",
+      "title": "Drill Scenario Realism",
+      "description": "Develop drill scenarios based on current threat landscape with input from threat intelligence and lessons from real incidents.",
+      "controlRef": ["CRC-066"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-090",
+      "clauseRef": "11.15",
+      "type": "operational",
+      "title": "Drill Multi-Stakeholder Participation",
+      "description": "Ensure cyber drill participation from IT, security, business units, communications, senior management, and where appropriate, board members.",
+      "controlRef": ["CRC-065", "CRC-066"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-091",
+      "clauseRef": "11.15",
+      "type": "reporting",
+      "title": "Drill Findings Board Reporting",
+      "description": "Report cyber drill outcomes to the board including identified gaps, improvement recommendations, and remediation timelines.",
+      "controlRef": ["CRC-067"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-092",
+      "clauseRef": "11.16",
+      "type": "operational",
+      "title": "Post-Incident Review Process",
+      "description": "Conduct thorough post-incident reviews for all significant incidents with root cause analysis and tracked improvement actions.",
+      "controlRef": ["CRC-068"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-093",
+      "clauseRef": "11.16",
+      "type": "operational",
+      "title": "Lessons Learned Integration",
+      "description": "Ensure lessons from incidents and drills are systematically captured and integrated into training, procedures, and controls.",
+      "controlRef": ["CRC-068"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-094",
+      "clauseRef": "11.17",
+      "type": "governance",
+      "title": "Cyber Insurance Procurement",
+      "description": "Obtain cyber insurance coverage commensurate with the institution's cyber risk profile and potential loss exposure.",
+      "controlRef": ["CRC-069"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-095",
+      "clauseRef": "11.17",
+      "type": "governance",
+      "title": "Insurance Coverage Adequacy Review",
+      "description": "Annually review cyber insurance coverage adequacy against evolving risk exposure, threat landscape, and business changes.",
+      "controlRef": ["CRC-069", "CRC-070"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-096",
+      "clauseRef": "11.17",
+      "type": "governance",
+      "title": "Insurance T&C Legal Review",
+      "description": "Conduct legal review of insurance terms, conditions, and exclusions to identify coverage gaps and negotiate improvements.",
+      "controlRef": ["CRC-070"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-097",
+      "clauseRef": "11.18",
+      "type": "operational",
+      "title": "Policyholder Obligation Compliance",
+      "description": "Track and comply with all cyber insurance policyholder obligations including security control requirements and notification timelines.",
+      "controlRef": ["CRC-071"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-098",
+      "clauseRef": "11.18",
+      "type": "reporting",
+      "title": "BNM Incident Notification",
+      "description": "Notify BNM of cyber incidents within prescribed timelines using defined notification formats and channels.",
+      "controlRef": ["CRC-072"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-099",
+      "clauseRef": "11.19",
+      "type": "reporting",
+      "title": "Stakeholder Incident Communication",
+      "description": "Communicate cyber incidents to relevant stakeholders including customers, partners, and law enforcement as required.",
+      "controlRef": ["CRC-072"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-100",
+      "clauseRef": "11.19",
+      "type": "operational",
+      "title": "Industry Threat Intelligence Sharing",
+      "description": "Participate actively in industry threat intelligence sharing forums and contribute actionable intelligence to sector peers.",
+      "controlRef": ["CRC-073"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-101",
+      "clauseRef": "11.20",
+      "type": "governance",
+      "title": "Cross-Industry Cyber Collaboration",
+      "description": "Establish and maintain collaborative relationships with regulators, CERTs, law enforcement, and peer institutions on cyber matters.",
+      "controlRef": ["CRC-073"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-102",
+      "clauseRef": "12.1",
+      "type": "governance",
+      "title": "Digital Service CRF Extension",
+      "description": "Extend the CRF scope to comprehensively cover all digital service delivery channels with channel-specific risk assessments.",
+      "controlRef": ["CRC-074"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-103",
+      "clauseRef": "12.2",
+      "type": "governance",
+      "title": "Alternative Control Justification",
+      "description": "Document and justify alternative controls for digital services where standard controls cannot be applied, with risk acceptance.",
+      "controlRef": ["CRC-075"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-104",
+      "clauseRef": "12.3",
+      "type": "technical",
+      "title": "Digital Fraud Detection System",
+      "description": "Implement comprehensive fraud detection covering all digital transaction channels with real-time scoring and alerting.",
+      "controlRef": ["CRC-076"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-105",
+      "clauseRef": "12.3",
+      "type": "technical",
+      "title": "Transaction Monitoring Rules",
+      "description": "Configure transaction monitoring with velocity checks, limit validation, geographic anomaly detection, and device risk scoring.",
+      "controlRef": ["CRC-076"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-106",
+      "clauseRef": "12.4",
+      "type": "technical",
+      "title": "Mobile Application Security",
+      "description": "Implement defence-in-depth for mobile banking including app hardening, RASP, certificate pinning, and integrity verification.",
+      "controlRef": ["CRC-077"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-107",
+      "clauseRef": "12.4",
+      "type": "technical",
+      "title": "Mobile Threat Defence",
+      "description": "Deploy mobile threat defence capabilities detecting compromised devices, malicious apps, and network-based attacks on mobile channels.",
+      "controlRef": ["CRC-077"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-108",
+      "clauseRef": "12.5",
+      "type": "operational",
+      "title": "Digital Channel Surveillance",
+      "description": "Implement continuous surveillance of digital service channels with real-time anomaly detection and fraud monitoring.",
+      "controlRef": ["CRC-078"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-109",
+      "clauseRef": "12.5",
+      "type": "operational",
+      "title": "Digital Incident Response Coordination",
+      "description": "Establish coordinated incident response procedures for digital channel incidents involving IT, fraud, operations, and customer service.",
+      "controlRef": ["CRC-079"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-110",
+      "clauseRef": "12.6",
+      "type": "operational",
+      "title": "Cross-Team Incident Coordination",
+      "description": "Ensure coordinated response across IT security, fraud management, customer operations, and communications during digital incidents.",
+      "controlRef": ["CRC-079"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-111",
+      "clauseRef": "12.7",
+      "type": "reporting",
+      "title": "Digital Security Board Reporting",
+      "description": "Report digital service security posture, fraud trends, and incident statistics to senior management and board regularly.",
+      "controlRef": ["CRC-080"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-112",
+      "clauseRef": "12.7",
+      "type": "operational",
+      "title": "Fraud Detection Rule Updates",
+      "description": "Regularly update fraud detection rules and models based on emerging fraud typologies, incident learnings, and threat intelligence.",
+      "controlRef": ["CRC-081"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-113",
+      "clauseRef": "12.8",
+      "type": "technical",
+      "title": "Secure Customer Communication Channels",
+      "description": "Implement secure communication channels with customers including authenticated messaging and anti-phishing measures.",
+      "controlRef": ["CRC-082"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-114",
+      "clauseRef": "12.8",
+      "type": "technical",
+      "title": "Customer Self-Service Security Controls",
+      "description": "Provide customers with self-service security controls including transaction limits, device management, and notification preferences.",
+      "controlRef": ["CRC-083"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-115",
+      "clauseRef": "12.8",
+      "type": "technical",
+      "title": "Kill Switch Implementation",
+      "description": "Implement customer-accessible kill switch mechanism enabling immediate suspension of digital services in case of suspected compromise.",
+      "controlRef": ["CRC-083"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-116",
+      "clauseRef": "12.9",
+      "type": "operational",
+      "title": "Customer Incident Notification",
+      "description": "Establish procedures for timely notification and guidance to customers affected by cyber incidents involving digital services.",
+      "controlRef": ["CRC-084"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-117",
+      "clauseRef": "12.9",
+      "type": "operational",
+      "title": "Post-Incident Customer Protection",
+      "description": "Implement post-incident customer protection measures including account recovery, fraud reimbursement, and enhanced monitoring.",
+      "controlRef": ["CRC-084"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-118",
+      "clauseRef": "15.1",
+      "type": "operational",
+      "title": "Staff Cybersecurity Awareness Programme",
+      "description": "Implement mandatory cybersecurity awareness programme for all staff with annual training and regular reinforcement campaigns.",
+      "controlRef": ["CRC-085"],
+      "priority": "critical"
+    },
+    {
+      "id": "REQ-119",
+      "clauseRef": "15.1",
+      "type": "operational",
+      "title": "Phishing Simulation Programme",
+      "description": "Conduct regular phishing simulation exercises with targeted remedial training for staff who fail simulations.",
+      "controlRef": ["CRC-085"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-120",
+      "clauseRef": "15.2",
+      "type": "operational",
+      "title": "Technical Staff Security Training",
+      "description": "Provide specialised cybersecurity training and certification opportunities for technical staff aligned with role requirements.",
+      "controlRef": ["CRC-086"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-121",
+      "clauseRef": "15.2",
+      "type": "operational",
+      "title": "Board Cybersecurity Education",
+      "description": "Provide regular cybersecurity education to board members covering threat landscape, regulatory developments, and strategic risk.",
+      "controlRef": ["CRC-087"],
+      "priority": "high"
+    },
+    {
+      "id": "REQ-122",
+      "clauseRef": "15.3",
+      "type": "operational",
+      "title": "Third-Party Security Awareness",
+      "description": "Extend cybersecurity awareness requirements to third-party service providers and contractors with system or data access.",
+      "controlRef": ["CRC-088"],
+      "priority": "medium"
+    },
+    {
+      "id": "REQ-123",
+      "clauseRef": "15.3",
+      "type": "governance",
+      "title": "Security Awareness Effectiveness Measurement",
+      "description": "Measure and report on security awareness programme effectiveness through metrics including phishing click rates, incident reporting rates, and knowledge assessments.",
+      "controlRef": ["CRC-085", "CRC-086", "CRC-087"],
+      "priority": "medium"
+    }
+  ]
+}

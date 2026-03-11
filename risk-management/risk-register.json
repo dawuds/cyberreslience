@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "description": "Template cyber risk register aligned with BNM RMiT cyber resilience domains",
+  "riskCategories": [
+    {
+      "id": "RC-01",
+      "category": "Cyber Attack",
+      "risks": [
+        {
+          "id": "CR-001",
+          "risk": "Ransomware attack disrupting critical systems",
+          "domain": "incident-response",
+          "likelihood": "medium",
+          "impact": "critical",
+          "inherentRating": "high",
+          "controls": ["CRC-056", "CRC-029", "CRC-062"],
+          "residualRating": "medium",
+          "clauseRef": ["11.8", "11.12", "11.13"]
+        },
+        {
+          "id": "CR-002",
+          "risk": "Advanced persistent threat (APT) compromise",
+          "domain": "cyber-operations",
+          "likelihood": "medium",
+          "impact": "critical",
+          "inherentRating": "high",
+          "controls": ["CRC-017", "CRC-019", "CRC-033"],
+          "residualRating": "medium",
+          "clauseRef": ["App5-A4", "App5-C2"]
+        },
+        {
+          "id": "CR-003",
+          "risk": "DDoS attack on internet-facing services",
+          "domain": "network-security",
+          "likelihood": "high",
+          "impact": "high",
+          "inherentRating": "high",
+          "controls": ["CRC-020"],
+          "residualRating": "medium",
+          "clauseRef": ["App5-A6"]
+        }
+      ]
+    },
+    {
+      "id": "RC-02",
+      "category": "Data Breach",
+      "risks": [
+        {
+          "id": "CR-004",
+          "risk": "Customer information breach (CIB) through system compromise",
+          "domain": "data-security",
+          "likelihood": "medium",
+          "impact": "critical",
+          "inherentRating": "high",
+          "controls": ["CRC-028", "CRC-021", "CRC-022"],
+          "residualRating": "medium",
+          "clauseRef": ["App5-B5", "App5-B1", "App5-B2"]
+        },
+        {
+          "id": "CR-005",
+          "risk": "Data exfiltration by insider threat",
+          "domain": "data-security",
+          "likelihood": "low",
+          "impact": "high",
+          "inherentRating": "medium",
+          "controls": ["CRC-022", "CRC-026"],
+          "residualRating": "low",
+          "clauseRef": ["App5-B2", "App5-B4"]
+        }
+      ]
+    },
+    {
+      "id": "RC-03",
+      "category": "Digital Fraud",
+      "risks": [
+        {
+          "id": "CR-006",
+          "risk": "Account takeover through credential compromise",
+          "domain": "digital-services-security",
+          "likelihood": "high",
+          "impact": "high",
+          "inherentRating": "high",
+          "controls": ["CRC-079", "CRC-076"],
+          "residualRating": "medium",
+          "clauseRef": ["12.4", "12.3"]
+        },
+        {
+          "id": "CR-007",
+          "risk": "Phishing attack targeting customers",
+          "domain": "digital-services-security",
+          "likelihood": "high",
+          "impact": "medium",
+          "inherentRating": "high",
+          "controls": ["CRC-080", "CRC-081"],
+          "residualRating": "medium",
+          "clauseRef": ["12.5", "12.7"]
+        }
+      ]
+    },
+    {
+      "id": "RC-04",
+      "category": "API and Application Risk",
+      "risks": [
+        {
+          "id": "CR-008",
+          "risk": "API vulnerability exploitation",
+          "domain": "api-security",
+          "likelihood": "medium",
+          "impact": "high",
+          "inherentRating": "high",
+          "controls": ["CRC-048", "CRC-053"],
+          "residualRating": "medium",
+          "clauseRef": ["App5-E1"]
+        }
+      ]
+    },
+    {
+      "id": "RC-05",
+      "category": "Operational Resilience",
+      "risks": [
+        {
+          "id": "CR-009",
+          "risk": "SOC blind spot missing critical security event",
+          "domain": "soc-operations",
+          "likelihood": "medium",
+          "impact": "high",
+          "inherentRating": "high",
+          "controls": ["CRC-029", "CRC-030", "CRC-037"],
+          "residualRating": "medium",
+          "clauseRef": ["App5-C1", "App5-C5"]
+        },
+        {
+          "id": "CR-010",
+          "risk": "Unpatched critical vulnerability exploited",
+          "domain": "vapt",
+          "likelihood": "medium",
+          "impact": "critical",
+          "inherentRating": "high",
+          "controls": ["CRC-040", "CRC-041"],
+          "residualRating": "medium",
+          "clauseRef": ["App5-D2", "App5-D3"]
+        }
+      ]
+    }
+  ]
+}

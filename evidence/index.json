@@ -1,0 +1,1056 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "evidence": [
+    {
+      "id": "EVD-001",
+      "controlRef": ["CRC-001"],
+      "title": "Cyber Resilience Framework Document",
+      "description": "Board-approved CRF policy document covering Identify, Protect, Detect, Respond, Recover phases",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-002",
+      "controlRef": ["CRC-001"],
+      "title": "Board CRF Approval Minutes",
+      "description": "Board meeting minutes documenting formal approval and endorsement of the CRF",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "Board",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-003",
+      "controlRef": ["CRC-002"],
+      "title": "CISO Appointment Letter",
+      "description": "Formal appointment letter for the Chief Information Security Officer with defined reporting lines",
+      "format": "document",
+      "frequency": "per-event",
+      "owner": "HR",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-004",
+      "controlRef": ["CRC-003"],
+      "title": "Cyber Risk Function Charter",
+      "description": "Charter establishing the dedicated cyber risk function, mandate, authority, and independence",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-005",
+      "controlRef": ["CRC-004"],
+      "title": "Cyber Risk Register",
+      "description": "Comprehensive register of identified cyber risks with likelihood, impact, controls, and residual ratings",
+      "format": "matrix",
+      "frequency": "quarterly",
+      "owner": "Risk Management",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-006",
+      "controlRef": ["CRC-004", "CRC-005"],
+      "title": "Cyber Risk Assessment Reports",
+      "description": "Periodic cyber risk assessment reports presented to the board risk committee",
+      "format": "report",
+      "frequency": "quarterly",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-007",
+      "controlRef": ["CRC-005"],
+      "title": "Threat Escalation Records",
+      "description": "Records of cyber threat escalations to senior management and board, including timelines and outcomes",
+      "format": "record",
+      "frequency": "per-event",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-008",
+      "controlRef": ["CRC-006"],
+      "title": "Board Cyber Risk Oversight Minutes",
+      "description": "Board and board committee meeting minutes documenting oversight of cyber risk posture and CRF effectiveness",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "Board",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-009",
+      "controlRef": ["CRC-002", "CRC-003"],
+      "title": "Cyber Risk Function Organisational Chart",
+      "description": "Organisational chart showing CISO reporting line, cyber risk function structure, and independence from IT operations",
+      "format": "diagram",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-010",
+      "controlRef": ["CRC-001", "CRC-006"],
+      "title": "CRF Annual Review Report",
+      "description": "Annual review of the CRF documenting changes, lessons learned, and improvement actions",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-011",
+      "controlRef": ["CRC-007"],
+      "title": "NCII Designation Letter",
+      "description": "NACSA letter designating systems as National Critical Information Infrastructure",
+      "format": "document",
+      "frequency": "per-event",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-012",
+      "controlRef": ["CRC-008"],
+      "title": "NACSA Compliance Records",
+      "description": "Records of compliance with NACSA directives and additional security measures for NCII systems",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-013",
+      "controlRef": ["CRC-009"],
+      "title": "Additional Directive Compliance Evidence",
+      "description": "Evidence of compliance with any additional NACSA or BNM directives related to NCII",
+      "format": "record",
+      "frequency": "per-event",
+      "owner": "CISO",
+      "criticality": "conditional"
+    },
+    {
+      "id": "EVD-014",
+      "controlRef": ["CRC-010"],
+      "title": "Network Zone Architecture Diagram",
+      "description": "Network segmentation diagram showing DMZ, internal zones, database zones, and management zones with traffic flow",
+      "format": "diagram",
+      "frequency": "annual",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-015",
+      "controlRef": ["CRC-011"],
+      "title": "Firewall Rule Base Export",
+      "description": "Export of firewall configurations and rule sets deployed at critical network segments",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-016",
+      "controlRef": ["CRC-011"],
+      "title": "Firewall Rule Review Records",
+      "description": "Records of periodic firewall rule base reviews including cleanup of stale rules and exceptions",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-017",
+      "controlRef": ["CRC-012"],
+      "title": "IPS Deployment Records",
+      "description": "IPS/IDS deployment evidence showing coverage of critical network segments and signature update status",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-018",
+      "controlRef": ["CRC-013"],
+      "title": "Web and Email Filtering Configuration",
+      "description": "Configuration exports from web proxy and email gateway filtering solutions",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-019",
+      "controlRef": ["CRC-014"],
+      "title": "Endpoint Protection Deployment Report",
+      "description": "Report showing endpoint protection coverage percentage, signature currency, and unprotected device list",
+      "format": "report",
+      "frequency": "monthly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-020",
+      "controlRef": ["CRC-015"],
+      "title": "NAC Configuration Evidence",
+      "description": "Network Access Control configuration showing authentication policies and device compliance checks",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-021",
+      "controlRef": ["CRC-016"],
+      "title": "Wireless Security Configuration",
+      "description": "Wireless network security configurations including WPA3/WPA2-Enterprise settings and rogue AP detection",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-022",
+      "controlRef": ["CRC-017"],
+      "title": "APT Detection Solution Deployment",
+      "description": "Evidence of APT detection and sandboxing solution deployment covering network and email traffic",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-023",
+      "controlRef": ["CRC-018"],
+      "title": "DNS Security Configuration",
+      "description": "DNS security configuration including DNSSEC, DNS sinkholing, and DNS query logging",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-024",
+      "controlRef": ["CRC-019"],
+      "title": "Network Traffic Analysis Dashboard",
+      "description": "Screenshots and configuration of network traffic analysis tools showing baseline and anomaly detection",
+      "format": "screenshot",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-025",
+      "controlRef": ["CRC-020"],
+      "title": "DDoS Mitigation Subscription",
+      "description": "DDoS mitigation service subscription agreement and activation records",
+      "format": "certificate",
+      "frequency": "annual",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-026",
+      "controlRef": ["CRC-020"],
+      "title": "DDoS Drill Test Results",
+      "description": "Results of periodic DDoS mitigation testing and failover validation",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-027",
+      "controlRef": ["CRC-010"],
+      "title": "Network Segmentation Validation Report",
+      "description": "Report validating that network segmentation controls are correctly implemented and effective",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-028",
+      "controlRef": ["CRC-019"],
+      "title": "NTP Synchronisation Evidence",
+      "description": "Evidence of NTP synchronisation across all critical systems to authoritative time sources",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-029",
+      "controlRef": ["CRC-021"],
+      "title": "Encryption Configuration Standards",
+      "description": "Encryption standards document and evidence of TLS/AES configuration for data at rest and in transit",
+      "format": "configuration",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-030",
+      "controlRef": ["CRC-022"],
+      "title": "DLP Policy and Deployment Evidence",
+      "description": "DLP policy document and evidence of deployment across email, web, endpoint, and network channels",
+      "format": "policy",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-031",
+      "controlRef": ["CRC-022"],
+      "title": "DLP Incident Reports",
+      "description": "Monthly reports of DLP policy violations, investigations, and resolution outcomes",
+      "format": "report",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-032",
+      "controlRef": ["CRC-023"],
+      "title": "Data Classification Scheme",
+      "description": "Approved data classification scheme defining classification levels, handling requirements, and labelling standards",
+      "format": "policy",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-033",
+      "controlRef": ["CRC-024"],
+      "title": "Data Inventory Register",
+      "description": "Comprehensive inventory of data assets including classification, location, owner, and retention requirements",
+      "format": "matrix",
+      "frequency": "annual",
+      "owner": "DPO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-034",
+      "controlRef": ["CRC-025"],
+      "title": "Key Management Procedures",
+      "description": "Cryptographic key management procedures covering generation, distribution, storage, rotation, and destruction",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-035",
+      "controlRef": ["CRC-026"],
+      "title": "Third-Party Data Access Controls",
+      "description": "Evidence of controls governing third-party access to sensitive data including agreements and monitoring",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "Risk Management",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-036",
+      "controlRef": ["CRC-027"],
+      "title": "Data Masking and Tokenisation Evidence",
+      "description": "Configuration evidence of data masking and tokenisation applied to non-production environments",
+      "format": "configuration",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-037",
+      "controlRef": ["CRC-028"],
+      "title": "CIB Prevention Review Records",
+      "description": "Records of confidential information barrier reviews and compliance validation for sensitive data",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "Risk Management",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-038",
+      "controlRef": ["CRC-021", "CRC-025"],
+      "title": "Encryption Certificate Inventory",
+      "description": "Inventory of all SSL/TLS and encryption certificates with expiry dates and renewal tracking",
+      "format": "matrix",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-039",
+      "controlRef": ["CRC-029"],
+      "title": "SOC Capability Assessment Report",
+      "description": "Assessment of SOC capabilities against defined maturity criteria including people, process, and technology",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-040",
+      "controlRef": ["CRC-030"],
+      "title": "SIEM Configuration and Use Cases",
+      "description": "SIEM deployment documentation, correlation rules, use cases, and log source inventory",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-041",
+      "controlRef": ["CRC-031"],
+      "title": "SOC Incident Playbooks",
+      "description": "Library of SOC incident response playbooks covering common attack scenarios and escalation procedures",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-042",
+      "controlRef": ["CRC-032"],
+      "title": "SOC Monthly Operations Report",
+      "description": "Monthly SOC report covering alerts processed, incidents handled, SLA compliance, and key metrics",
+      "format": "report",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-043",
+      "controlRef": ["CRC-033"],
+      "title": "Threat Intelligence Subscriptions",
+      "description": "Evidence of active threat intelligence feed subscriptions and integration with SIEM/SOC tools",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-044",
+      "controlRef": ["CRC-034"],
+      "title": "Threat Hunting Reports",
+      "description": "Reports of proactive threat hunting exercises including hypotheses, methodology, and findings",
+      "format": "report",
+      "frequency": "quarterly",
+      "owner": "SOC Manager",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-045",
+      "controlRef": ["CRC-035"],
+      "title": "SOC Physical Security Evidence",
+      "description": "Evidence of physical security controls for the SOC facility including access control and surveillance",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-046",
+      "controlRef": ["CRC-036"],
+      "title": "SOC 24x7 Roster and Shift Schedule",
+      "description": "SOC staffing roster demonstrating 24x7 coverage with qualified analysts across all shifts",
+      "format": "record",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-047",
+      "controlRef": ["CRC-037"],
+      "title": "Forensic Readiness Plan",
+      "description": "Forensic readiness plan covering evidence collection, preservation, chain of custody, and analysis procedures",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-048",
+      "controlRef": ["CRC-037"],
+      "title": "Forensic Tool Validation Records",
+      "description": "Records of forensic tool validation and analyst certification maintenance",
+      "format": "certificate",
+      "frequency": "annual",
+      "owner": "SOC Manager",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-049",
+      "controlRef": ["CRC-038"],
+      "title": "SOC Log Source Coverage Matrix",
+      "description": "Matrix mapping critical systems and applications to SIEM log sources with gap analysis",
+      "format": "matrix",
+      "frequency": "quarterly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-050",
+      "controlRef": ["CRC-029", "CRC-030"],
+      "title": "SOC Technology Stack Inventory",
+      "description": "Inventory of all SOC technologies including SIEM, SOAR, EDR, NDR with licensing and support status",
+      "format": "matrix",
+      "frequency": "annual",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-051",
+      "controlRef": ["CRC-039"],
+      "title": "VAPT Standard Operating Procedures",
+      "description": "VAPT SOP document defining methodology, scope, frequency, reporting, and remediation tracking requirements",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-052",
+      "controlRef": ["CRC-040"],
+      "title": "Quarterly Vulnerability Assessment Reports",
+      "description": "Quarterly VA scan reports covering internal and external assets with severity distribution and trends",
+      "format": "report",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-053",
+      "controlRef": ["CRC-041"],
+      "title": "Annual Penetration Test Reports",
+      "description": "Annual penetration test reports from qualified assessors covering network, application, and social engineering",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-054",
+      "controlRef": ["CRC-042"],
+      "title": "Pre-Launch Security Test Reports",
+      "description": "Security test reports for new systems or major changes completed prior to production deployment",
+      "format": "report",
+      "frequency": "per-event",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-055",
+      "controlRef": ["CRC-040", "CRC-041"],
+      "title": "Vulnerability Remediation Tracking",
+      "description": "Tracking records showing remediation status of identified vulnerabilities against defined SLAs",
+      "format": "matrix",
+      "frequency": "monthly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-056",
+      "controlRef": ["CRC-043"],
+      "title": "Compromise Assessment Report",
+      "description": "Report from periodic compromise assessment to detect indicators of prior or ongoing compromise",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-057",
+      "controlRef": ["CRC-044"],
+      "title": "VAPT Assessor Qualifications",
+      "description": "Evidence of VAPT assessor qualifications, certifications, and independence for external testers",
+      "format": "certificate",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-058",
+      "controlRef": ["CRC-045"],
+      "title": "Crowdsourced Security Testing Records",
+      "description": "Records from bug bounty or crowdsourced security testing programs including submissions and payouts",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "conditional"
+    },
+    {
+      "id": "EVD-059",
+      "controlRef": ["CRC-041"],
+      "title": "Penetration Test Scope and Rules of Engagement",
+      "description": "Documented scope, rules of engagement, and sign-off for each penetration testing exercise",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-060",
+      "controlRef": ["CRC-039", "CRC-040"],
+      "title": "Vulnerability Management Policy",
+      "description": "Policy defining vulnerability severity classification, remediation SLAs, and exception processes",
+      "format": "policy",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-061",
+      "controlRef": ["CRC-046"],
+      "title": "API Inventory Register",
+      "description": "Comprehensive inventory of all APIs including internal, external, and third-party with classification and ownership",
+      "format": "matrix",
+      "frequency": "quarterly",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-062",
+      "controlRef": ["CRC-047"],
+      "title": "API Security Assessment Reports",
+      "description": "Security assessment reports for APIs covering OWASP API Top 10 and authentication/authorisation controls",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-063",
+      "controlRef": ["CRC-048"],
+      "title": "API Secure Coding Standards",
+      "description": "Secure coding standards document for API development including input validation and error handling",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-064",
+      "controlRef": ["CRC-049", "CRC-050"],
+      "title": "API Authentication Configuration",
+      "description": "Configuration evidence for API authentication mechanisms including OAuth 2.0, mTLS, and API key management",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-065",
+      "controlRef": ["CRC-051"],
+      "title": "API Monitoring Dashboard Screenshots",
+      "description": "Screenshots of API monitoring dashboards showing rate limiting, error rates, and anomaly detection",
+      "format": "screenshot",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-066",
+      "controlRef": ["CRC-052"],
+      "title": "API Token Revocation Procedure",
+      "description": "Documented procedure for emergency API token revocation and evidence of testing",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-067",
+      "controlRef": ["CRC-053"],
+      "title": "API Gateway Configuration",
+      "description": "API gateway deployment configuration including rate limiting, throttling, and WAF integration",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-068",
+      "controlRef": ["CRC-054", "CRC-055"],
+      "title": "API Encryption and Versioning Evidence",
+      "description": "Evidence of API payload encryption, TLS enforcement, and version deprecation management",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-069",
+      "controlRef": ["CRC-056"],
+      "title": "Cyber Attack Lifecycle Defence Procedures",
+      "description": "Documented procedures for defending against each stage of the cyber attack lifecycle",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-070",
+      "controlRef": ["CRC-057"],
+      "title": "Continuous Monitoring Configuration",
+      "description": "Configuration evidence of continuous monitoring tools covering critical assets and attack surfaces",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-071",
+      "controlRef": ["CRC-058"],
+      "title": "Cyber Threat Intelligence Reports",
+      "description": "Monthly CTI reports covering threat landscape, IOCs, adversary TTPs, and recommended mitigations",
+      "format": "report",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-072",
+      "controlRef": ["CRC-059"],
+      "title": "Anomalous Activity Investigation Records",
+      "description": "Records of anomalous activity investigations including detection source, analysis, and disposition",
+      "format": "record",
+      "frequency": "per-event",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-073",
+      "controlRef": ["CRC-060"],
+      "title": "Red Team Exercise Reports",
+      "description": "Reports from red team exercises validating defensive capabilities and identifying gaps",
+      "format": "report",
+      "frequency": "triennial",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-074",
+      "controlRef": ["CRC-056", "CRC-058"],
+      "title": "Threat Landscape Briefing Presentations",
+      "description": "Quarterly threat landscape briefing presentations delivered to senior management",
+      "format": "document",
+      "frequency": "quarterly",
+      "owner": "CISO",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-075",
+      "controlRef": ["CRC-061"],
+      "title": "Cyber Incident Response Plan",
+      "description": "Board-approved CIRP document defining roles, escalation procedures, communication protocols, and recovery steps",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-076",
+      "controlRef": ["CRC-062"],
+      "title": "CERT Roster and Contact Details",
+      "description": "Cyber Emergency Response Team roster with contact details, roles, and escalation chain",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-077",
+      "controlRef": ["CRC-063"],
+      "title": "Out-of-Band Communications Configuration",
+      "description": "Configuration and test records for out-of-band communication channels used during cyber incidents",
+      "format": "configuration",
+      "frequency": "annual",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-078",
+      "controlRef": ["CRC-064"],
+      "title": "Annual Cyber Drill Exercise Reports",
+      "description": "Reports from annual cyber drill exercises including scenario, participants, timeline, and findings",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-079",
+      "controlRef": ["CRC-064"],
+      "title": "Cyber Drill Scenario Documentation",
+      "description": "Detailed scenario documentation for cyber drill exercises including inject plans and expected responses",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-080",
+      "controlRef": ["CRC-065"],
+      "title": "Board Cyber Drill Participation Records",
+      "description": "Records of board-level participation in cyber crisis exercises and war-gaming sessions",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "Board",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-081",
+      "controlRef": ["CRC-065"],
+      "title": "Board Cyber Drill After-Action Report",
+      "description": "After-action report from board-level cyber drills documenting observations and improvement actions",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-082",
+      "controlRef": ["CRC-066"],
+      "title": "Post-Incident Review Reports",
+      "description": "Post-incident review reports documenting root cause, timeline, impact, and corrective actions",
+      "format": "report",
+      "frequency": "per-event",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-083",
+      "controlRef": ["CRC-067"],
+      "title": "Crisis Communication Plan",
+      "description": "Crisis communication plan defining stakeholder notification procedures, templates, and spokesperson designation",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-084",
+      "controlRef": ["CRC-068"],
+      "title": "Incident Classification Matrix",
+      "description": "Matrix defining cyber incident severity levels, response timelines, and escalation requirements",
+      "format": "matrix",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-085",
+      "controlRef": ["CRC-061", "CRC-066"],
+      "title": "Lessons Learned Register",
+      "description": "Register of lessons learned from cyber incidents and drills with implementation tracking",
+      "format": "record",
+      "frequency": "per-event",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-086",
+      "controlRef": ["CRC-069"],
+      "title": "Cyber Insurance Policy Document",
+      "description": "Current cyber insurance policy document with coverage details, limits, and exclusions",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "Risk Management",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-087",
+      "controlRef": ["CRC-070"],
+      "title": "Insurance Terms and Conditions Review",
+      "description": "Records of review of cyber insurance terms, conditions, and adequacy of coverage",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "Risk Management",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-088",
+      "controlRef": ["CRC-071"],
+      "title": "BNM Incident Notification Records",
+      "description": "Records of cyber incident notifications submitted to BNM within prescribed timelines",
+      "format": "record",
+      "frequency": "per-event",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-089",
+      "controlRef": ["CRC-072"],
+      "title": "Threat Intelligence Sharing Records",
+      "description": "Records of threat intelligence shared with industry peers, BNM, and law enforcement agencies",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-090",
+      "controlRef": ["CRC-073"],
+      "title": "Cross-Industry Collaboration Evidence",
+      "description": "Evidence of participation in cross-industry cyber resilience initiatives, ISACs, and working groups",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-091",
+      "controlRef": ["CRC-074"],
+      "title": "Digital Services CRF Expansion Document",
+      "description": "Documentation extending the CRF to cover digital service delivery channels and platforms",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-092",
+      "controlRef": ["CRC-075"],
+      "title": "Defence-in-Depth Architecture for Digital Services",
+      "description": "Architecture documentation showing defence-in-depth controls for digital service platforms",
+      "format": "diagram",
+      "frequency": "annual",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-093",
+      "controlRef": ["CRC-076"],
+      "title": "Fraud Detection Rules and Configuration",
+      "description": "Configuration of fraud detection rules, transaction monitoring thresholds, and alert criteria",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-094",
+      "controlRef": ["CRC-077"],
+      "title": "Digital Service Surveillance Dashboard",
+      "description": "Continuous surveillance configuration and dashboard for digital service channels",
+      "format": "screenshot",
+      "frequency": "monthly",
+      "owner": "SOC Manager",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-095",
+      "controlRef": ["CRC-078"],
+      "title": "Coordinated Incident Handling Procedures",
+      "description": "Procedures for coordinated incident handling across digital service channels with third parties",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-096",
+      "controlRef": ["CRC-079"],
+      "title": "Customer Authentication Controls",
+      "description": "Evidence of multi-factor authentication and adaptive authentication controls for digital services",
+      "format": "configuration",
+      "frequency": "quarterly",
+      "owner": "IT Security",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-097",
+      "controlRef": ["CRC-080", "CRC-081"],
+      "title": "Customer Awareness Materials",
+      "description": "Customer-facing cybersecurity awareness materials including safe banking guides and fraud alerts",
+      "format": "document",
+      "frequency": "quarterly",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-098",
+      "controlRef": ["CRC-082"],
+      "title": "Kill Switch Configuration and Test Records",
+      "description": "Configuration of kill switch mechanisms for digital services and evidence of periodic testing",
+      "format": "configuration",
+      "frequency": "annual",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-099",
+      "controlRef": ["CRC-083"],
+      "title": "Contact Centre SLA and Staffing Records",
+      "description": "Contact centre SLA documentation and staffing evidence for handling customer fraud reports",
+      "format": "record",
+      "frequency": "monthly",
+      "owner": "CTO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-100",
+      "controlRef": ["CRC-084"],
+      "title": "Post-Incident Customer Remediation Records",
+      "description": "Records of customer remediation measures following digital service security incidents",
+      "format": "record",
+      "frequency": "per-event",
+      "owner": "Risk Management",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-101",
+      "controlRef": ["CRC-085"],
+      "title": "Security Awareness Training Plan",
+      "description": "Annual security awareness training plan covering topics, target audiences, delivery methods, and schedule",
+      "format": "document",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-102",
+      "controlRef": ["CRC-085"],
+      "title": "Training Attendance and Completion Records",
+      "description": "Records of staff attendance and completion rates for cybersecurity awareness training programmes",
+      "format": "record",
+      "frequency": "quarterly",
+      "owner": "HR",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-103",
+      "controlRef": ["CRC-086"],
+      "title": "Specialist Certification Records",
+      "description": "Records of specialist cybersecurity certifications held by technical staff and SOC analysts",
+      "format": "certificate",
+      "frequency": "annual",
+      "owner": "HR",
+      "criticality": "recommended"
+    },
+    {
+      "id": "EVD-104",
+      "controlRef": ["CRC-087"],
+      "title": "Board Cyber Training Records",
+      "description": "Records of cybersecurity training and briefings delivered to board members and senior management",
+      "format": "record",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    },
+    {
+      "id": "EVD-105",
+      "controlRef": ["CRC-088"],
+      "title": "Training Effectiveness Measurement",
+      "description": "Results of training effectiveness assessments including phishing simulations and knowledge tests",
+      "format": "report",
+      "frequency": "annual",
+      "owner": "CISO",
+      "criticality": "required"
+    }
+  ]
+}

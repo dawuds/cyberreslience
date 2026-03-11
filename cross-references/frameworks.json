@@ -1,0 +1,125 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "frameworks": [
+    {
+      "id": "nist-csf",
+      "name": "NIST Cybersecurity Framework 2.0",
+      "version": "2.0",
+      "url": "https://www.nist.gov/cyberframework"
+    },
+    {
+      "id": "iso-27001",
+      "name": "ISO/IEC 27001:2022",
+      "version": "2022"
+    },
+    {
+      "id": "mitre-attack",
+      "name": "MITRE ATT&CK",
+      "version": "v14"
+    },
+    {
+      "id": "cis-controls",
+      "name": "CIS Controls v8",
+      "version": "8.0"
+    }
+  ],
+  "mappings": [
+    {
+      "domain": "cyber-risk-governance",
+      "rmitClauses": ["11.1", "11.2", "11.3"],
+      "nistCsf": ["GV.OC-01", "GV.OC-02", "GV.RM-01", "GV.RM-02", "GV.RR-01"],
+      "iso27001": ["A.5.1", "A.5.2", "A.5.3", "A.5.4"],
+      "mitreAttack": [],
+      "cisControls": ["CIS 1", "CIS 2"]
+    },
+    {
+      "domain": "ncii-compliance",
+      "rmitClauses": ["11.4"],
+      "nistCsf": ["GV.OC-03"],
+      "iso27001": ["A.5.31", "A.5.36"],
+      "mitreAttack": [],
+      "cisControls": []
+    },
+    {
+      "domain": "network-security",
+      "rmitClauses": ["App5-A1", "App5-A2", "App5-A3", "App5-A4", "App5-A5", "App5-A6"],
+      "nistCsf": ["PR.IR-01", "PR.IR-02", "PR.AA-01", "PR.AA-02", "PR.DS-01", "PR.DS-02"],
+      "iso27001": ["A.8.20", "A.8.21", "A.8.22", "A.8.23", "A.8.26"],
+      "mitreAttack": ["T1046", "T1071", "T1095", "T1498", "T1499"],
+      "cisControls": ["CIS 4", "CIS 9", "CIS 12", "CIS 13"]
+    },
+    {
+      "domain": "data-security",
+      "rmitClauses": ["App5-B1", "App5-B2", "App5-B3", "App5-B4", "App5-B5"],
+      "nistCsf": ["PR.DS-01", "PR.DS-02", "PR.DS-10", "PR.DS-11"],
+      "iso27001": ["A.5.33", "A.5.34", "A.8.10", "A.8.11", "A.8.12", "A.8.24"],
+      "mitreAttack": ["T1005", "T1020", "T1030", "T1048", "T1567"],
+      "cisControls": ["CIS 3", "CIS 11"]
+    },
+    {
+      "domain": "soc-operations",
+      "rmitClauses": ["11.9", "App5-C1", "App5-C2", "App5-C3", "App5-C4", "App5-C5"],
+      "nistCsf": ["DE.CM-01", "DE.CM-02", "DE.CM-03", "DE.CM-06", "DE.CM-09", "DE.AE-02", "DE.AE-03"],
+      "iso27001": ["A.8.15", "A.8.16"],
+      "mitreAttack": ["T1059", "T1053", "T1078", "T1036"],
+      "cisControls": ["CIS 8", "CIS 10"]
+    },
+    {
+      "domain": "vapt",
+      "rmitClauses": ["11.6", "App5-D1", "App5-D2", "App5-D3", "App5-D4", "App5-D5", "App5-D6"],
+      "nistCsf": ["ID.RA-01", "ID.RA-02", "ID.RA-03"],
+      "iso27001": ["A.8.8", "A.8.34"],
+      "mitreAttack": ["T1595", "T1190", "T1133"],
+      "cisControls": ["CIS 7", "CIS 18"]
+    },
+    {
+      "domain": "api-security",
+      "rmitClauses": ["App5-E1"],
+      "nistCsf": ["PR.DS-01", "PR.AA-01", "PR.AA-05"],
+      "iso27001": ["A.8.24", "A.8.25", "A.8.26"],
+      "mitreAttack": ["T1106", "T1059.009"],
+      "cisControls": ["CIS 16"]
+    },
+    {
+      "domain": "cyber-operations",
+      "rmitClauses": ["11.8", "11.10", "11.11"],
+      "nistCsf": ["DE.CM-01", "DE.AE-02", "DE.AE-03", "DE.AE-06", "DE.AE-07"],
+      "iso27001": ["A.5.7", "A.8.15", "A.8.16"],
+      "mitreAttack": ["T1595", "T1587", "T1566", "T1190", "T1059", "T1219", "T1041"],
+      "cisControls": ["CIS 8", "CIS 13"]
+    },
+    {
+      "domain": "incident-response",
+      "rmitClauses": ["11.12", "11.13", "11.14", "11.15", "11.16"],
+      "nistCsf": ["RS.MA-01", "RS.MA-02", "RS.MA-03", "RS.AN-03", "RS.AN-06", "RS.CO-02", "RS.MI-01", "RS.MI-02", "RC.RP-01", "RC.RP-02"],
+      "iso27001": ["A.5.24", "A.5.25", "A.5.26", "A.5.27", "A.5.28"],
+      "mitreAttack": [],
+      "cisControls": ["CIS 17"]
+    },
+    {
+      "domain": "cyber-insurance-reporting",
+      "rmitClauses": ["11.17", "11.18", "11.19", "11.20"],
+      "nistCsf": ["GV.RM-04", "RS.CO-02", "RS.CO-03"],
+      "iso27001": ["A.5.5", "A.5.6", "A.5.24", "A.6.8"],
+      "mitreAttack": [],
+      "cisControls": ["CIS 17"]
+    },
+    {
+      "domain": "digital-services-security",
+      "rmitClauses": ["12.1", "12.2", "12.3", "12.4", "12.5", "12.6", "12.7", "12.8", "12.9"],
+      "nistCsf": ["PR.AA-01", "PR.AA-03", "PR.DS-01", "DE.CM-01", "DE.AE-02"],
+      "iso27001": ["A.5.23", "A.8.24", "A.8.25", "A.8.26"],
+      "mitreAttack": ["T1566", "T1078", "T1110", "T1539"],
+      "cisControls": ["CIS 6", "CIS 16"]
+    },
+    {
+      "domain": "security-awareness",
+      "rmitClauses": ["15.1", "15.2", "15.3"],
+      "nistCsf": ["PR.AT-01", "PR.AT-02"],
+      "iso27001": ["A.6.3", "A.6.4"],
+      "mitreAttack": ["T1566.001", "T1566.002", "T1204"],
+      "cisControls": ["CIS 14"]
+    }
+  ]
+}

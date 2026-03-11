@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "source": "BNM/RH/PD 028-98, issued 28 November 2025",
+  "sections": [
+    {
+      "id": "section-11",
+      "number": "11",
+      "title": "Cybersecurity Management",
+      "subsections": [
+        { "id": "cyber-risk-management", "title": "Cyber Risk Management", "clauses": ["11.1", "11.2", "11.3"] },
+        { "id": "ncii-compliance", "title": "National Critical Information Infrastructure", "clauses": ["11.4"] },
+        { "id": "cybersecurity-controls", "title": "Cybersecurity Controls", "clauses": ["11.5", "11.6", "11.7"] },
+        { "id": "cybersecurity-operations", "title": "Cybersecurity Operations", "clauses": ["11.8", "11.9", "11.10", "11.11"] },
+        { "id": "cyber-response-recovery", "title": "Cyber Response and Recovery", "clauses": ["11.12", "11.13", "11.14", "11.15", "11.16", "11.17"] },
+        { "id": "cyber-reporting-sharing", "title": "Cyber Reporting and Threat Information Sharing", "clauses": ["11.18", "11.19", "11.20"] }
+      ]
+    },
+    {
+      "id": "section-12",
+      "number": "12",
+      "title": "Digital Services",
+      "subsections": [
+        { "id": "security-digital-services", "title": "Security of Digital Services", "clauses": ["12.1", "12.2"] },
+        { "id": "digital-fraud-management", "title": "Digital Fraud Management and Customer Awareness", "clauses": ["12.3", "12.4", "12.5", "12.6", "12.7", "12.8", "12.9"] }
+      ]
+    },
+    {
+      "id": "section-15",
+      "number": "15",
+      "title": "Security Awareness and Education",
+      "subsections": [
+        { "id": "awareness-education", "title": "Security Awareness and Education", "clauses": ["15.1", "15.2", "15.3"] }
+      ]
+    },
+    {
+      "id": "appendix-5",
+      "number": "App5",
+      "title": "Control Measures on Cybersecurity",
+      "subsections": [
+        { "id": "network-security", "title": "Part A: Network Security", "clauses": ["App5-A1", "App5-A2", "App5-A3", "App5-A4", "App5-A5", "App5-A6"] },
+        { "id": "data-security", "title": "Part B: Data Security", "clauses": ["App5-B1", "App5-B2", "App5-B3", "App5-B4", "App5-B5"] },
+        { "id": "soc", "title": "Part C: Security Operations Centre (SOC)", "clauses": ["App5-C1", "App5-C2", "App5-C3", "App5-C4", "App5-C5"] },
+        { "id": "vapt", "title": "Part D: Vulnerability Assessment and Penetration Test (VAPT)", "clauses": ["App5-D1", "App5-D2", "App5-D3", "App5-D4", "App5-D5", "App5-D6"] },
+        { "id": "api-security", "title": "Part E: Application Programming Interface (API) Security", "clauses": ["App5-E1"] }
+      ]
+    }
+  ]
+}

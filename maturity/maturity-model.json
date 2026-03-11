@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "maturityModel": {
+    "name": "BNM RMiT Cyber Resilience Maturity Model",
+    "levels": [
+      {
+        "level": 1,
+        "name": "Initial",
+        "description": "Ad-hoc cybersecurity practices; reactive approach; limited documentation",
+        "characteristics": ["No formal CRF", "Reactive incident handling", "Minimal monitoring", "Basic perimeter controls only"]
+      },
+      {
+        "level": 2,
+        "name": "Basic",
+        "description": "Foundational controls in place; meets minimum BNM RMiT requirements",
+        "characteristics": ["CRF documented and approved", "SOC established", "Basic SIEM operational", "Annual pen test conducted", "CIRP documented", "Staff awareness program in place"]
+      },
+      {
+        "level": 3,
+        "name": "Mature",
+        "description": "Comprehensive and integrated cybersecurity program; proactive approach",
+        "characteristics": ["CRF regularly reviewed and updated", "Advanced SOC with threat hunting", "CTI program established", "Regular cyber drills with board involvement", "DLP fully deployed", "Metrics-driven security management"]
+      },
+      {
+        "level": 4,
+        "name": "Advanced",
+        "description": "Continuously improving; adaptive and intelligence-driven cyber resilience",
+        "characteristics": ["Automated threat detection and response", "Red team exercises triennial", "Compromise assessments conducted", "Industry-leading practices adopted", "Active threat intelligence sharing", "Continuous improvement culture"]
+      }
+    ],
+    "domainAssessment": [
+      { "domain": "cyber-risk-governance", "basicThreshold": ["CRC-001", "CRC-002", "CRC-003"], "matureThreshold": ["CRC-004", "CRC-005", "CRC-006"] },
+      { "domain": "network-security", "basicThreshold": ["CRC-010", "CRC-011", "CRC-013", "CRC-014"], "matureThreshold": ["CRC-012", "CRC-015", "CRC-016", "CRC-017", "CRC-018", "CRC-019", "CRC-020"] },
+      { "domain": "data-security", "basicThreshold": ["CRC-021", "CRC-022", "CRC-025"], "matureThreshold": ["CRC-023", "CRC-024", "CRC-026", "CRC-027", "CRC-028"] },
+      { "domain": "soc-operations", "basicThreshold": ["CRC-029", "CRC-030", "CRC-031"], "matureThreshold": ["CRC-032", "CRC-033", "CRC-034", "CRC-035", "CRC-036", "CRC-037", "CRC-038"] },
+      { "domain": "vapt", "basicThreshold": ["CRC-039", "CRC-040", "CRC-041"], "matureThreshold": ["CRC-042", "CRC-043", "CRC-044", "CRC-045"] },
+      { "domain": "api-security", "basicThreshold": ["CRC-046", "CRC-047", "CRC-050"], "matureThreshold": ["CRC-048", "CRC-049", "CRC-051", "CRC-052", "CRC-053", "CRC-054", "CRC-055"] },
+      { "domain": "cyber-operations", "basicThreshold": ["CRC-056", "CRC-057"], "matureThreshold": ["CRC-058", "CRC-059", "CRC-060"] },
+      { "domain": "incident-response", "basicThreshold": ["CRC-061", "CRC-062", "CRC-063"], "matureThreshold": ["CRC-064", "CRC-065", "CRC-066", "CRC-067", "CRC-068"] },
+      { "domain": "cyber-insurance-reporting", "basicThreshold": ["CRC-071", "CRC-072"], "matureThreshold": ["CRC-069", "CRC-070", "CRC-073"] },
+      { "domain": "digital-services-security", "basicThreshold": ["CRC-074", "CRC-076", "CRC-079"], "matureThreshold": ["CRC-075", "CRC-077", "CRC-078", "CRC-080", "CRC-081", "CRC-082", "CRC-083", "CRC-084"] },
+      { "domain": "security-awareness", "basicThreshold": ["CRC-085", "CRC-087"], "matureThreshold": ["CRC-086", "CRC-088"] }
+    ]
+  }
+}

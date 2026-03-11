@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "source": "BNM RMiT Nov 2025 — Sections 11, 12, 15, Appendix 5",
+  "domains": [
+    {
+      "id": "cyber-risk-governance",
+      "name": "Cyber Risk Governance",
+      "description": "Establishes the overarching cyber resilience framework (CRF), governance structures, dedicated cyber risk functions, CISO reporting lines, and board-level oversight of cyber risk posture.",
+      "crfPhase": "identify",
+      "primaryClauses": ["11.1", "11.2", "11.3"],
+      "appendixRef": null,
+      "controlCount": 6
+    },
+    {
+      "id": "ncii-compliance",
+      "name": "NCII Compliance",
+      "description": "Ensures compliance with National Critical Information Infrastructure obligations under NACSA directives, including designation acknowledgement, additional security measures, and reporting requirements.",
+      "crfPhase": "identify",
+      "primaryClauses": ["11.4"],
+      "appendixRef": null,
+      "controlCount": 3
+    },
+    {
+      "id": "network-security",
+      "name": "Network Security",
+      "description": "Covers network segmentation, perimeter defence, firewall deployment at critical segments, intrusion prevention, web and email filtering, endpoint protection, APT solutions, DDoS mitigation, and time synchronisation.",
+      "crfPhase": "protect",
+      "primaryClauses": [],
+      "appendixRef": "App5-A1 to App5-A6",
+      "controlCount": 11
+    },
+    {
+      "id": "data-security",
+      "name": "Data Security",
+      "description": "Addresses encryption of PII and sensitive data at rest, data loss prevention technology and policies, data classification, inventory management, third-party data controls, and confidential-information-barrier prevention.",
+      "crfPhase": "protect",
+      "primaryClauses": [],
+      "appendixRef": "App5-B1 to App5-B5",
+      "controlCount": 8
+    },
+    {
+      "id": "soc-operations",
+      "name": "SOC Operations",
+      "description": "Defines Security Operations Centre capabilities including SIEM deployment, incident coordination, vulnerability management, threat hunting, forensic readiness, playbook maintenance, reporting cadence, and 24x7 monitoring.",
+      "crfPhase": "detect",
+      "primaryClauses": ["11.9"],
+      "appendixRef": "App5-C1 to App5-C5",
+      "controlCount": 10
+    },
+    {
+      "id": "vapt",
+      "name": "Vulnerability Assessment & Penetration Testing",
+      "description": "Governs VAPT standard operating procedures, quarterly vulnerability assessments, annual and pre-launch penetration tests, compromise assessments, documentation and escalation protocols, and crowdsourced security testing.",
+      "crfPhase": "detect",
+      "primaryClauses": ["11.6"],
+      "appendixRef": "App5-D1 to App5-D6",
+      "controlCount": 7
+    },
+    {
+      "id": "api-security",
+      "name": "API Security",
+      "description": "Ensures comprehensive API inventory management, availability and scaling controls, secure coding practices, encryption and key management, anti-brute-force measures, authentication protocols, gateway deployment, and continuous monitoring.",
+      "crfPhase": "protect",
+      "primaryClauses": [],
+      "appendixRef": "App5-E1",
+      "controlCount": 10
+    },
+    {
+      "id": "cyber-operations",
+      "name": "Cyber Operations",
+      "description": "Encompasses cyber-attack lifecycle defence, continuous monitoring of assets, cyber threat intelligence integration, anomalous activity response, and red team exercises to validate defensive posture.",
+      "crfPhase": "detect",
+      "primaryClauses": ["11.8", "11.10", "11.11"],
+      "appendixRef": null,
+      "controlCount": 5
+    },
+    {
+      "id": "incident-response",
+      "name": "Incident Response",
+      "description": "Covers cyber crisis management structures, Cyber Incident Response Plan establishment, CERT readiness, out-of-band communications, annual cyber drills, drill scenarios and board reporting, and post-incident review processes.",
+      "crfPhase": "respond",
+      "primaryClauses": ["11.12", "11.13", "11.14", "11.15", "11.16"],
+      "appendixRef": null,
+      "controlCount": 8
+    },
+    {
+      "id": "cyber-insurance-reporting",
+      "name": "Cyber Insurance & Reporting",
+      "description": "Addresses cyber insurance coverage adequacy, terms and conditions review, policyholder obligations, incident notification to BNM and stakeholders, threat intelligence sharing, and cross-industry collaboration.",
+      "crfPhase": "recover",
+      "primaryClauses": ["11.17", "11.18", "11.19", "11.20"],
+      "appendixRef": null,
+      "controlCount": 5
+    },
+    {
+      "id": "digital-services-security",
+      "name": "Digital Services Security",
+      "description": "Extends cyber resilience to digital service delivery including fraud countermeasures, defence-in-depth for mobile channels, continuous surveillance, coordinated incident handling, customer protection and empowerment, kill switch mechanisms, and post-incident customer measures.",
+      "crfPhase": "protect",
+      "primaryClauses": ["12.1", "12.2", "12.3", "12.4", "12.5", "12.6", "12.7", "12.8", "12.9"],
+      "appendixRef": null,
+      "controlCount": 11
+    },
+    {
+      "id": "security-awareness",
+      "name": "Security Awareness & Training",
+      "description": "Mandates cybersecurity awareness programmes for all staff, specialised training for technical personnel, board-level cyber education, and extension of awareness programmes to third-party service providers.",
+      "crfPhase": "protect",
+      "primaryClauses": ["15.1", "15.2", "15.3"],
+      "appendixRef": null,
+      "controlCount": 4
+    }
+  ]
+}

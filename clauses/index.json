@@ -1,0 +1,731 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-11",
+  "source": "BNM/RH/PD 028-98, issued 28 November 2025",
+  "totalClauses": 55,
+  "clauses": [
+    {
+      "id": "11.1",
+      "section": "11",
+      "subsection": "Cyber Risk Management",
+      "marker": "S",
+      "title": "Cyber Resilience Framework",
+      "text": "A financial institution must establish and maintain a robust Cyber Resilience Framework (CRF). The CRF shall incorporate measures across the five phases of the cyber resilience lifecycle — Identify, Protect, Detect, Respond and Recover — to safeguard the financial institution from cyber threats and minimise potential disruptions.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.2",
+      "section": "11",
+      "subsection": "Cyber Risk Management",
+      "marker": "S",
+      "title": "Cyber Risk Management Function",
+      "text": "A financial institution must establish a cyber risk management function with dedicated resources and clearly defined roles and responsibilities. This function shall report directly to the CISO or equivalent senior officer who has authority to implement and enforce cybersecurity policies across the organization.",
+      "subItems": [],
+      "crossReferences": ["9.4"],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.3",
+      "section": "11",
+      "subsection": "Cyber Risk Management",
+      "marker": "S",
+      "title": "Cyber Risk Identification and Assessment",
+      "text": "A financial institution must establish a cyber risk management function to proactively identify and assess cyber risks and threats relevant to the financial institution. This includes the identification of threats targeting critical systems, escalation of high-risk cyber threats to senior management and the board. This function shall be performed by an in-house dedicated team or by leveraging on the parent or group.",
+      "subItems": [],
+      "crossReferences": ["9.4"],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.4",
+      "section": "11",
+      "subsection": "National Critical Information Infrastructure",
+      "marker": "S",
+      "title": "NCII Compliance",
+      "text": "A financial institution that is designated as a National Critical Information Infrastructure (NCII) entity pursuant to the Cyber Security Act 2024 must ensure compliance to the requirements and guidelines applicable to NCII, including any additional directives and standards issued by the National Cyber Security Agency (NACSA).",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.5",
+      "section": "11",
+      "subsection": "Cybersecurity Controls",
+      "marker": "S",
+      "title": "Control Measures",
+      "text": "A financial institution must adopt robust control measures as outlined in Appendix 5 to enhance its resilience to cyber-attacks.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": ["Appendix 5"]
+    },
+    {
+      "id": "11.6",
+      "section": "11",
+      "subsection": "Cybersecurity Controls",
+      "marker": "S",
+      "title": "Red Team Simulation",
+      "text": "A financial institution must conduct a realistic \"Red Team\" simulation attack on its infrastructure at least once every three years to proactively identify and manage potential vulnerabilities.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.7",
+      "section": "11",
+      "subsection": "Cybersecurity Controls",
+      "marker": "G",
+      "title": "Crowdsourced Security Testing",
+      "text": "A financial institution may implement crowdsourced security testing programs as a complement to existing security assessments, in order to thoroughly test the security of their IT environment. The financial institution must engage reputable and credible service providers to facilitate the program.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.8",
+      "section": "11",
+      "subsection": "Cybersecurity Operations",
+      "marker": "S",
+      "title": "Cybersecurity Operations Responsibilities",
+      "text": "A financial institution must establish clear responsibilities for cybersecurity operations which shall include implementing appropriate mitigating measures in the financial institution's conduct of business that correspond to the following phases of the cyber-attack lifecycle:",
+      "subItems": [
+        "(a) reconnaissance;",
+        "(b) weaponisation;",
+        "(c) delivery;",
+        "(d) exploitation;",
+        "(e) installation;",
+        "(f) command and control; and",
+        "(g) exfiltration."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.9",
+      "section": "11",
+      "subsection": "Cybersecurity Operations",
+      "marker": "S",
+      "title": "Continuous Monitoring and Detection",
+      "text": "A financial institution must ensure continuous and proactive monitoring and timely detection of anomalous activities in its technology infrastructure to prevent potential compromise of its security controls or weakening of its security posture. This shall include-",
+      "subItems": [
+        "(a) establishing a Security Operations Center (SOC) supported by competent resources and equipped with the necessary tools and technologies for proactive monitoring of its technology security posture;",
+        "(b) ensuring the scope of monitoring must cover all critical systems including the supporting infrastructure; and",
+        "(c) conducting regular review of its security posture via the conduct of a vulnerability assessment and penetration testing in line with Appendix 5."
+      ],
+      "crossReferences": [],
+      "appendixReferences": ["Appendix 5"]
+    },
+    {
+      "id": "11.10",
+      "section": "11",
+      "subsection": "Cybersecurity Operations",
+      "marker": "S",
+      "title": "Cyber Threat Intelligence",
+      "text": "A financial institution must establish a process to collect, analyse and evaluate cyber threat information in relation to its environment (\"cyber threat intelligence\") to promptly detect cyber threats, including data breach incidents and spread of misleading information in relation to the financial institution over the Internet.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.11",
+      "section": "11",
+      "subsection": "Cybersecurity Operations",
+      "marker": "S",
+      "title": "Anomalous Activity Response",
+      "text": "A financial institution must establish appropriate response to investigate and respond to flagged anomalous activities based on their level of complexity.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.12",
+      "section": "11",
+      "subsection": "Cyber Response and Recovery",
+      "marker": "S",
+      "title": "Cyber Crisis Management",
+      "text": "A financial institution must establish comprehensive cyber crisis management policies and procedures that incorporate cyber-attack scenarios and responses in the organisation's overall crisis management plan, escalation processes, business continuity and disaster recovery planning. This includes developing a clear communication plan for engaging shareholders, regulatory authorities, customers and employees in the event of a cyber incident.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.13",
+      "section": "11",
+      "subsection": "Cyber Response and Recovery",
+      "marker": "S",
+      "title": "Cyber Incident Response Plan",
+      "text": "A financial institution must establish and implement a comprehensive Cyber Incident Response Plan (CIRP). The CIRP must address the following:",
+      "subItems": [
+        "(a) Preparedness — Establish a clear governance process, reporting structure and roles and responsibilities of the Cyber Emergency Response Team (CERT) as well as invocation and escalation procedures in the event of an incident;",
+        "(b) Detection and analysis — Ensure effective and expedient processes for identifying points of compromise, assessing the extent of damage and preserving sufficient evidence for forensics purposes;",
+        "(c) Containment and eradication — Identify and implement remedial actions to prevent or minimise damage to the financial institution, contain and remove the known threats and resume business activities;",
+        "(d) Recovery — Implement multiple strategies including contingency plans as part of incident recovery to swiftly resume business operations and significantly enhance redundancy and resilience; and",
+        "(e) Post-incident activity — Conduct post-incident review incorporating lessons learned and develop long-term risk mitigations."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.14",
+      "section": "11",
+      "subsection": "Cyber Response and Recovery",
+      "marker": "S",
+      "title": "CERT Readiness",
+      "text": "A financial institution must ensure that relevant CERT members are conversant with the incident response plan and handling procedures and remain contactable at all times.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.15",
+      "section": "11",
+      "subsection": "Cyber Response and Recovery",
+      "marker": "S",
+      "title": "Out-of-Band Communication",
+      "text": "A financial institution shall establish a secure and reliable out-of-band communication infrastructure for both internal and external stakeholders to ensure continued coordination and communication if the primary communication infrastructure is compromised or rendered unavailable during a crisis.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.16",
+      "section": "11",
+      "subsection": "Cyber Response and Recovery",
+      "marker": "S",
+      "title": "Annual Cyber Drill Exercise",
+      "text": "A financial institution must conduct an annual cyber drill exercise to test the effectiveness of its CIRP including the out-of-band communication methods, based on various current and emerging threat scenarios (e.g. social engineering), with the involvement of key stakeholders including members of the board, senior management and relevant third party service providers. The result of the annual cyber drill exercise must be reported to the board in a timely manner. The out-of-band communication methods must also be tested regularly as part of the institutions cyber drill exercises. The test scenarios must include scenarios designed to test-",
+      "subItems": [
+        "(a) the effectiveness of escalation, internal and external communication and decision-making processes that correspond to different impact levels of a cyber incident; and",
+        "(b) the readiness and effectiveness of CERT and relevant third party service providers in supporting the recovery process."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.17",
+      "section": "11",
+      "subsection": "Cyber Response and Recovery",
+      "marker": "S",
+      "title": "Loss Provision and Cyber Insurance",
+      "text": "A financial institution shall review its loss provision arrangements to ensure its adequacy to cover cyber incidents based on its scenario analysis of extreme adverse events. Where cyber insurance is adopted to mitigate the impact of cyber incidents, the financial institution shall-",
+      "subItems": [
+        "(a) ensure that the scope of the insurance policy adequately covers the information security events and types of liability that the financial institution is exposed to;",
+        "(b) understand the terms and conditions of the insurance policy in relation to warranties, attestations or any responsibilities of the financial institution, have them reflected in the crisis response policies and procedures as appropriate and ensure that any changes to IT services and control measures do not result in unintended exclusions of cover; and",
+        "(c) ensure that any obligations imposed by the insurance policy (such as in relation to appointment of experts and accepting their recommendations during a cyber incident) do not impair its ability to act in the best interest of the financial institution and its customers. The financial institution shall anticipate and adequately manage any conflict of interest that may arise from the objective of the insurer to minimise the cost of its liability under the insurance policy."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.18",
+      "section": "11",
+      "subsection": "Cyber Reporting and Threat Information Sharing",
+      "marker": "S",
+      "title": "Cyber Incident Notification",
+      "text": "A financial institution is required to notify the Bank of cyber incidents in adherence to the Bank's policy documents on Operational Risk Reporting – Part C, Business Continuity Management – Part C, Merchant Acquiring Services – paragraphs 19.25 to 19.26 and any other relevant policy documents specified by the Bank.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.19",
+      "section": "11",
+      "subsection": "Cyber Reporting and Threat Information Sharing",
+      "marker": "S",
+      "title": "Cyber Threat Intelligence Sharing",
+      "text": "Subject to the applicable data protection laws, a financial institution must share cyber threat intelligence information with the industry on a timely basis via the relevant sharing platforms developed by the Bank, the industry, or law enforcement agencies. In addition, the financial institution must allocate resources to participate in any industry-wide initiatives aimed at improving collective threat intelligence capabilities.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "11.20",
+      "section": "11",
+      "subsection": "Cyber Reporting and Threat Information Sharing",
+      "marker": "S",
+      "title": "Stakeholder Collaboration",
+      "text": "A financial institution shall collaborate and cooperate closely with relevant stakeholders and authorities in combating cyber threats.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.1",
+      "section": "12",
+      "subsection": "Security of Digital Services",
+      "marker": "S",
+      "title": "Digital Services Security Controls",
+      "text": "Securing digital services is an integral part of financial institution's risk management. A financial institution must expand its CRF to implement robust technology security controls in providing digital services which assure the following:",
+      "subItems": [
+        "(a) adopt and regularly assess the minimum-security controls for respective delivery channels to ensure confidentiality and integrity of customer and counterparty information and transactions. Refer to Appendices 2, 3, 4 and 11;",
+        "(b) proper authentication of users or devices and authorization of transactions to mitigate impersonation and fraud risk. Refer the minimum-security controls in Appendix 3; and",
+        "(c) strong physical control and logical control measures."
+      ],
+      "crossReferences": [],
+      "appendixReferences": ["Appendix 2", "Appendix 3", "Appendix 4", "Appendix 11"]
+    },
+    {
+      "id": "12.2",
+      "section": "12",
+      "subsection": "Security of Digital Services",
+      "marker": "S",
+      "title": "Alternative Measures and Liability",
+      "text": "In the event that a financial institution has not yet implemented the digital services security controls specified under paragraph 12.1 to 12.9, the financial institution must-",
+      "subItems": [
+        "(a) be ready to provide documented explanation of how alternatives measures or mitigations achieve equivalent or superior effectiveness; and",
+        "(b) assume the liability of any fraud that occurs due to the gaps arise from the absence of the specified control."
+      ],
+      "crossReferences": ["12.1", "12.9"],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.3",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Enhanced CRF for Digital Fraud",
+      "text": "The complex and fast evolving digital fraud requires financial institutions to be vigilant against new fraud techniques and proactive in strengthening their cyber defence for customer protection. In line with paragraphs 11.2 and 11.3, a financial institution must enhance its CRF as follows:",
+      "subItems": [
+        "(a) expand the scope of identification of cybersecurity threats and countermeasures to include customers' mobile devices and access points;",
+        "(b) adopt layered (defense-in-depth) security controls to protect the digital service application deployed to customers' mobile devices and the relevant banking data contained in it;",
+        "(c) perform continuous surveillance and monitoring to detect any exploitation of the digital service application deployed to customers' mobile devices and ensure the swift upgrade of security controls to mitigate new vulnerabilities;",
+        "(d) establish clearly defined and effective incident handling procedures to assist customers to contain the potential damage resulting from a cybersecurity breach involving digital services;",
+        "(e) formalise operational arrangement to enable swift coordinated response and rapid upgrade of countermeasures to defend against advanced fraud tactics if a financial institution relies on multiple business functions;",
+        "(f) conduct regular review by senior management to ensure the effectiveness of digital fraud management and define threshold for escalation of countermeasures considering the actual impact to victims of digital fraud and emerging fraud environment; and",
+        "(g) apprise the board on the outcome of management reviews to preserve public confidence in the security of digital services and mitigate reputation risk to the industry."
+      ],
+      "crossReferences": ["11.2", "11.3"],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.4",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Fraud Detection Capabilities",
+      "text": "A financial institution must ensure that its fraud detection capabilities and rules are updated in a timely manner upon detection of new fraud modus operandi in order to prevent fraudulent transactions or account takeover using stolen customer credentials. This must be supported by appropriate risk analytics to improve the accuracy of fraud detection, that includes continuous upgrade of fraud detection capabilities as specified in Appendix 11 on Fraud Detection Standards.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": ["Appendix 11"]
+    },
+    {
+      "id": "12.5",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Digital Services Risk Mitigation",
+      "text": "A financial institution must mitigate any attendant risk arising from its delivery of digital services. This shall include-",
+      "subItems": [
+        "(a) adopt secure communication channel to mitigate risk of phishing. Compensating controls shall be adopted when using communication channel prone to phishing exploits;",
+        "(b) all customers must be properly informed in advance of new controls to ease adoption and minimise inconvenience; and",
+        "(c) practical ways for customers to verify the authenticity of calls made by the financial institution or its appointed outsourced service providers."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.6",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Customer Empowerment",
+      "text": "A financial institution shall empower customers to mitigate digital fraud risks where it is reasonably practical. This shall include offering customer mechanisms to manage activation and de-activation of payment card for card-not-present and overseas transactions. This shall not absolve the financial institution from its liabilities, responsibilities and duty of care to ensure the security of its digital services.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.7",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Customer Awareness Programmes",
+      "text": "Consumer competency is essential to strengthening the security of digital services. A financial institution must maintain continuous efforts to review and enhance the effectiveness of its awareness programmes, ensuring customers understand the risks of digital services fraud. This shall include-",
+      "subItems": [
+        "(a) continuous and timely updates of practical information on how to identify potential fraud, including specific information about new or common modus operandi;",
+        "(b) clear explanation about new and existing security measures, such as how to verify genuine e-banking websites and mobile applications;",
+        "(c) real-time alerts of possible risks when security measures are absent or have not yet been implemented; and",
+        "(d) measures to further improve customer understanding and familiarisation with fraud risks and controls, such as through interactive simulations of security features etc."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.8",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Fraud Reporting and Account Management",
+      "text": "A financial institution must provide convenient means for customers to report, suspend and re-activate their account swiftly in the event of a suspected fraud, where applicable. This shall require the financial institution to:",
+      "subItems": [
+        "(a) offer a secure self-service \"kill switch\" solution;",
+        "(b) ensure that its contact centre is adequately resourced and operating effectively to provide prompt and adequate assistance to customers in distress; and",
+        "(c) restore customer access to digital services within a reasonable timeframe upon validation."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "12.9",
+      "section": "12",
+      "subsection": "Digital Fraud Management and Customer Awareness",
+      "marker": "S",
+      "title": "Incident Handling and Customer Protection",
+      "text": "In addition to effective incident handling procedures, a financial institution must adopt additional measures to mitigate risk to customers arising from any incident involving potential fraud or compromise of customer data. This shall include-",
+      "subItems": [
+        "(a) heighten monitoring of affected customer accounts;",
+        "(b) notify affected customers and provide them with the necessary information to apply mitigating measures and reduce the risk of fraud; and",
+        "(c) revoke and re-issue affected user credentials or designated payment instruments, where there is a potential risk of exploitation due to compromised data or other fraudulent activity."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "15.1",
+      "section": "15",
+      "subsection": "Security Awareness and Education",
+      "marker": "S",
+      "title": "Staff Cybersecurity Awareness",
+      "text": "A financial institution must provide adequate and regular technology and cybersecurity awareness education for all staff in undertaking their respective roles and measure the effectiveness of its education and awareness programs. This cybersecurity awareness education must be conducted at least annually and must reflect the evolving cyber threat landscape and emerging risks. Where appropriate, the financial institution shall also include its third party service providers in their relevant training as outlined in paragraph 10.48(i).",
+      "subItems": [],
+      "crossReferences": ["10.48(i)"],
+      "appendixReferences": []
+    },
+    {
+      "id": "15.2",
+      "section": "15",
+      "subsection": "Security Awareness and Education",
+      "marker": "S",
+      "title": "Staff Training and Certification",
+      "text": "A financial institution must provide adequate and continuous training for staff involved in technology operations, cybersecurity and risk management in order to ensure that the staff are competent and suitably certified to effectively perform their roles and responsibilities.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "15.3",
+      "section": "15",
+      "subsection": "Security Awareness and Education",
+      "marker": "S",
+      "title": "Board Training",
+      "text": "A financial institution must provide its board members with regular training and information on technology developments to enable the board to effectively discharge its oversight role.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-A1",
+      "section": "App5",
+      "subsection": "Part A: Network Security",
+      "marker": "S",
+      "title": "Network Segregation",
+      "text": "A financial institution must ensure technology networks are segregated into multiple zones according to threat profile. Each zone shall be adequately protected by various security devices including but not limited to firewall and Intrusion Prevention System (IPS). This must include network for delivery of digital services and wireless networks as well.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-A2",
+      "section": "App5",
+      "subsection": "Part A: Network Security",
+      "marker": "S",
+      "title": "Server-to-Server External Network Security",
+      "text": "A financial institution must ensure security controls for server-to-server external network connections include the following:",
+      "subItems": [
+        "(a) use PKI-based authentication method or equivalent alternatives;",
+        "(b) use of secure tunnels such as Transport Layer Security (TLS) and Virtual Private Network (VPN) IPSec; and",
+        "(c) deploying staging servers with adequate perimeter defences and protection such as firewall, IPS and antivirus."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-A3",
+      "section": "App5",
+      "subsection": "Part A: Network Security",
+      "marker": "S",
+      "title": "Remote Access Security",
+      "text": "A financial institution must ensure security controls for remote access to server include the following:",
+      "subItems": [
+        "(a) restrict access to only hardened and locked down end-point devices;",
+        "(b) use secure tunnels such as TLS and VPN IPSec;",
+        "(c) deploy 'gateway' server with adequate perimeter defences and protection such as firewall, IPS and antivirus;",
+        "(d) close relevant ports immediately upon expiry of remote access; and",
+        "(e) implement multi-factor authentication (MFA) for all remote access sessions."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-A4",
+      "section": "App5",
+      "subsection": "Part A: Network Security",
+      "marker": "S",
+      "title": "Overall Security Controls",
+      "text": "A financial institution must ensure overall security controls are implemented including the following:",
+      "subItems": [
+        "(a) dedicated firewalls at all critical segments. All external-facing firewalls must be deployed on High Availability (HA) configuration and \"fail-close\" mode activated;",
+        "(b) IPS at all critical network segments with the capability to inspect and monitor encrypted network traffic;",
+        "(c) web and email filtering systems such as web-application firewalls, web-proxy, URL filtering, sandboxing features, spam filter and anti-spoofing controls;",
+        "(d) end-point protection solution to detect and remove security threats such as malware;",
+        "(e) enforce full hard disk encryption for all endpoints and systems;",
+        "(f) solution to mitigate advanced persistent threats including zero-day and signatureless malware; and",
+        "(g) capture the full network packets to rebuild relevant network sessions to aid forensics in the event of incidents."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-A5",
+      "section": "App5",
+      "subsection": "Part A: Network Security",
+      "marker": "S",
+      "title": "NTP Server Protection",
+      "text": "A financial institution must synchronise and protect the Network Time Protocol (NTP) server against tampering.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-A6",
+      "section": "App5",
+      "subsection": "Part A: Network Security",
+      "marker": "S",
+      "title": "DDoS Protection",
+      "text": "A financial institution must ensure its technology systems and infrastructure, including critical systems outsourced to or hosted by third party service providers, are adequately protected against all types of Distributed Denial of Service (DDoS) attacks (including Domain Name Service (DNS) based, volumetric, protocol and application layer attacks) through the following measures:",
+      "subItems": [
+        "(a) subscribing to DDoS mitigation services, which include automatic 'clean pipe' services to filter and divert any potential malicious traffic away from the network bandwidth; and",
+        "(b) regularly assessing the capability of the provider to expand network bandwidth on-demand including upstream provider capability, adequacy of the provider's incident response plan and its responsiveness to an attack; and",
+        "(c) implementing geolocation controls based on customer profile location, trend or behaviours, in order to restrict access from unauthorised regions and reduce exposure to malicious traffic."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-B1",
+      "section": "App5",
+      "subsection": "Part B: Data Security",
+      "marker": "S",
+      "title": "Data-at-Rest Encryption",
+      "text": "A financial institution shall ensure that all data-at-rest of Personal Identifiable Information (PII) and transaction data are securely protected and rendered unreadable to unauthorised access through the implementation of robust encryption mechanisms or equivalent capabilities.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-B2",
+      "section": "App5",
+      "subsection": "Part B: Data Security",
+      "marker": "S",
+      "title": "Data Loss Prevention",
+      "text": "A financial institution must design internal control procedures and implement appropriate technology in all applications and access points to enforce Data Loss Prevention (DLP) policies and trigger any policy violations. The technology deployed must cover the following:",
+      "subItems": [
+        "(a) data in-use – data being processed by IT resources;",
+        "(b) data in-motion – data being transmitted on the network; and",
+        "(c) data at-rest – data stored in storage mediums such as servers, backup media and databases."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-B3",
+      "section": "App5",
+      "subsection": "Part B: Data Security",
+      "marker": "S",
+      "title": "Data Removal Policies",
+      "text": "A financial institution must implement appropriate policies for the removal of data on technology equipment, mobile devices or storage media to prevent unauthorised access to data.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-B4",
+      "section": "App5",
+      "subsection": "Part B: Data Security",
+      "marker": "S",
+      "title": "DLP Strategy and Data Classification",
+      "text": "A financial institution must establish a clear DLP strategy and processes in order to ensure that proprietary and customer and counterparty information is identified, classified and secured. At a minimum, a financial institution must -",
+      "subItems": [
+        "(a) ensure that data owners are accountable and responsible for identifying and appropriately classifying data;",
+        "(b) undertake a data discovery process prior to the development of a data classification scheme and data inventory; and",
+        "(c) ensure that data accessible by third parties is clearly identified and policies must be implemented to safeguard and control third party access. This includes adequate contractual agreements to protect the interests of the financial institution and its customers."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-B5",
+      "section": "App5",
+      "subsection": "Part B: Data Security",
+      "marker": "S",
+      "title": "Customer Information Breach Safeguards",
+      "text": "A financial institution must ensure adequate security controls are in place to safeguard against customer information breach (CIB), which include:",
+      "subItems": [
+        "(a) conducting continuous review to ensure that CIB does not occur in the IT environments of the financial institution, its intermediaries, or third party service providers. The financial institution shall also incorporate scanning or screening of customer information into the scope of periodic security assessments (e.g. penetration testing, red teaming, or other security validation exercises) to detect accidental exposure of customer information on financial institution's systems;",
+        "(b) enhancing cybersecurity operations to promptly detect and strengthen the safeguards against CIB;",
+        "(c) ensure that the scope of financial institutions' internal audit reviews encompasses the management and security controls pertaining to CIB; and",
+        "(d) conduct a thorough investigation to identify the technical root cause(s) of all CIBs with appropriate action and consequence management to mitigate recurrence."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-C1",
+      "section": "App5",
+      "subsection": "Part C: Security Operations Centre (SOC)",
+      "marker": "S",
+      "title": "SOC Capabilities",
+      "text": "A financial institution must ensure its SOC, has adequate capabilities for proactive monitoring of its technology security posture. This shall enable the financial institution to detect anomalous user or network activities, flag potential breaches and establish the appropriate response supported by skilled resources based on the level of complexity of the alerts. The outcome of the SOC activities shall also inform the financial institution's reviews of its cybersecurity posture and strategy.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-C2",
+      "section": "App5",
+      "subsection": "Part C: Security Operations Centre (SOC)",
+      "marker": "S",
+      "title": "SOC Functions",
+      "text": "The SOC must be able to perform the following functions:",
+      "subItems": [
+        "(a) adequate log collection and the implementation of an event correlation engine with parameter-driven use cases such as Security Information and Event Management (SIEM);",
+        "(b) incident coordination and response;",
+        "(c) vulnerability management;",
+        "(d) threat hunting;",
+        "(e) remediation functions including the ability to perform forensic artifact handling, malware and implant analysis;",
+        "(f) provision of situational awareness to detect adversaries and threats including threat intelligence analysis and operations and monitoring Indicators of Compromise (IoCs). This includes advanced behavioural analysis to detect signature-less and file-less malware and to identify anomalies that may pose security threats including at endpoints and network layers; and",
+        "(g) has a well-documented and standardized playbook that covers common and plausible cyber threat scenarios, such as ransomware attacks."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-C3",
+      "section": "App5",
+      "subsection": "Part C: Security Operations Centre (SOC)",
+      "marker": "S",
+      "title": "Monthly Threat Assessment Report",
+      "text": "A financial institution must ensure that the SOC provides monthly threat assessment report, which shall include, at a minimum, the following:",
+      "subItems": [
+        "(a) trends and statistics of cyber events and incidents categorised by type of attacks, target and source IP addresses, location of data centres and criticality of applications; and",
+        "(b) intelligence on emerging and potential threats including Tactics, Techniques and Procedures (TTP)."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-C4",
+      "section": "App5",
+      "subsection": "Part C: Security Operations Centre (SOC)",
+      "marker": "S",
+      "title": "Threat Intelligence Services",
+      "text": "A financial institution must subscribe to reputable threat intelligence services to identify emerging cyber threats, uncover new cyber-attack techniques and support the implementation of countermeasures.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-C5",
+      "section": "App5",
+      "subsection": "Part C: Security Operations Centre (SOC)",
+      "marker": "S",
+      "title": "SOC Operational Requirements",
+      "text": "A financial institution must ensure the following:",
+      "subItems": [
+        "(a) the SOC is located in a physically secure environment with proper access controls;",
+        "(b) the SOC operates on a 24x7 basis with disaster recovery capability to ensure continuous availability; and",
+        "(c) the SOC has a holistic and end-to-end view of the financial institution's infrastructure including internal and external facing perimeters."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-D1",
+      "section": "App5",
+      "subsection": "Part D: Vulnerability Assessment and Penetration Test (VAPT)",
+      "marker": "S",
+      "title": "VAPT Standard Operating Procedures",
+      "text": "A financial institution must establish standard operating procedures (SOP) for VAPT activities to continuously identify vulnerabilities, assess potential risks and remediate the identified gaps. The SOP must outline the relevant control measures including but not limited to ensuring that the activities of external penetration testers are within the defined scope and are always subject to continuous oversight, validating the event logs and ensuring data purging.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-D2",
+      "section": "App5",
+      "subsection": "Part D: Vulnerability Assessment and Penetration Test (VAPT)",
+      "marker": "S",
+      "title": "Quarterly Vulnerability Assessment",
+      "text": "A financial institution must perform a quarterly vulnerability assessment of external and internal network components that support all critical systems.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-D3",
+      "section": "App5",
+      "subsection": "Part D: Vulnerability Assessment and Penetration Test (VAPT)",
+      "marker": "S",
+      "title": "Annual Penetration Testing",
+      "text": "A financial institution must conduct annual intelligence-led penetration tests on its internal and external network infrastructure, critical systems as well as digital services including web, mobile and all external-facing applications. The test shall reflect extreme but plausible cyber-attack scenarios based on emerging and evolving threat scenarios. A financial institution must engage suitably accredited penetration testers and service providers to perform this function.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-D4",
+      "section": "App5",
+      "subsection": "Part D: Vulnerability Assessment and Penetration Test (VAPT)",
+      "marker": "S",
+      "title": "Pre-Launch Penetration Testing",
+      "text": "In addition to the periodic testing, a financial institution must also conduct intelligence-led penetration tests prior to introducing new systems for the new products or services to ensure the IT infrastructure is not accidently exposed due to unchecked network configuration.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-D5",
+      "section": "App5",
+      "subsection": "Part D: Vulnerability Assessment and Penetration Test (VAPT)",
+      "marker": "S",
+      "title": "Penetration Test Reporting",
+      "text": "A financial institution must ensure the outcome of the penetration testing exercise is properly documented and escalated in a timely manner to senior management to identify and monitor the implementation of relevant remedial actions.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-D6",
+      "section": "App5",
+      "subsection": "Part D: Vulnerability Assessment and Penetration Test (VAPT)",
+      "marker": "S",
+      "title": "Independent Compromise Assessment",
+      "text": "A financial institution must undertake an independent compromise assessment on the technology infrastructure of its critical systems at least once every three years and ensure the results of such assessments are escalated to senior management and the board in a timely manner. The financial institution may leverage their group-level cyber risk management functions to support this requirement.",
+      "subItems": [],
+      "crossReferences": [],
+      "appendixReferences": []
+    },
+    {
+      "id": "App5-E1",
+      "section": "App5",
+      "subsection": "Part E: Application Programming Interface (API) Security",
+      "marker": "S",
+      "title": "API Security Controls",
+      "text": "A financial institution must ensure that the level of API security implemented is commensurate with the potential risks involved. At a minimum, the financial institution is required to implement the following measures to mitigate cybersecurity risks associated with APIs:",
+      "subItems": [
+        "(a) implement and maintain a centralised API inventory. The inventory must comprehensively encompass identification, classification and prioritisation of all associated API connections and dependencies;",
+        "(b) ensure availability of API service by designing APIs to be scalable for handling high level of traffic and implementing measures to mitigate denial of service attacks;",
+        "(c) undertake secure coding practices during API development, which shall include but not be limited to validating security of third party code and libraries, implementing robust error handling, input validation and appropriate security headers;",
+        "(d) employ robust encryption standards and effective key management controls;",
+        "(e) deploy anti brute-force mechanisms, including but not limited to rate limiting, account lockout, and others;",
+        "(f) implement strong and robust authorisation and authentication protocols that commensurate with the risks presented by the APIs;",
+        "(g) consider utilizing an API gateway to manage access, authentication, and authorization of the APIs;",
+        "(h) conduct periodic security assessments on APIs, including penetration testing and static / dynamic security testing;",
+        "(i) continuous monitoring for APIs to ensure visibility into the utilization and performance of the APIs, for prompt identification and detection of potential suspicious activities; and",
+        "(j) establish process to effectively revoke access token or API keys in the event of a compromise."
+      ],
+      "crossReferences": [],
+      "appendixReferences": []
+    }
+  ]
+}
